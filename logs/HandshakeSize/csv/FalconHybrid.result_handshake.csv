@@ -1,0 +1,17 @@
+SIG_ALG;KEM_ALG;Read Bytes;Written Bytes
+falcon512;X25519;2735;509
+falcon512;P-256;2758;542
+falcon512;P-384;2791;574
+falcon512;P-521;2830;610
+falcon1024;X25519;4853;509
+falcon1024;P-256;4892;542
+falcon1024;P-384;4918;574
+falcon1024;P-521;4961;610
+falconpadded512;X25519;2750;509
+falconpadded512;P-256;2783;542
+falconpadded512;P-384;2815;574
+falconpadded512;P-521;2851;610
+falconpadded1024;X25519;4874;509
+falconpadded1024;P-256;4907;542
+falconpadded1024;P-384;4939;574
+falconpadded1024;P-521;4975;610

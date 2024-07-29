@@ -1,0 +1,10 @@
+SIG_ALG;KEM_ALG;Read Bytes;Written Bytes
+dilithium2;kyber512;7427;1269
+dilithium2;kyber768;7747;1653
+dilithium2;kyber1024;8227;2037
+dilithium3;kyber512;9813;1269
+dilithium3;kyber768;10133;1653
+dilithium3;kyber1024;10613;2037
+dilithium5;kyber512;13057;1269
+dilithium5;kyber768;13377;1653
+dilithium5;kyber1024;13857;2037
