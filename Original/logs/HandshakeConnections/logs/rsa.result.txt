@@ -1,0 +1,849 @@
+./rsa.sh
+Running  GENKEY CA
+...+..+....++++++++++++++++++++++++++++++++++++++++++*...+.........+....+...+..+............+.+...+...............+......+.........+.....++++++++++++++++++++++++++++++++++++++++++*.....+.....+.......+.....+...............+............+...............+..........+............+......+..+...............+.+.....................+.....+....+.........+............+.........+......+...........+..........+++++
+....+..+...+.+.....+......+...+....+......+.....+....+.....++++++++++++++++++++++++++++++++++++++++++*.....+...+.+......+...+..++++++++++++++++++++++++++++++++++++++++++*......+......+..+.......+..+..........+...........+...+....+...+...+...........+...+.............+..+.......+....................+.+..+......................+........+.......+......+....................+.........+...+.............+............+.....+.+....................+....+...+..............+...+.+...............+.........+.....+.......+.....+....+.....+............+....+.......................+...+.......+...+........+.......+...+.....+...............+.+...+.................+.+..+...+.......+........+.......+.....+............+....+.....+............+...+.+...+...+..+.......+...+...........+++++
+Running  GENKEY SERVER
+.+.+.....+.+...+.....+......+....+..+.+........+.+.........+.........++++++++++++++++++++++++++++++++++++++++++*..+......+.........+..........+..+.......+...+...+..+.......+..+.........++++++++++++++++++++++++++++++++++++++++++*.+.......+.....+...............+.+.........+......+........+.......+.....+.......+..+.+...+..+.............+.....+.+........+.............+...+..............+......................+...+...........+............+....+++++
+...+...+.........+..+...+...+.......+......+.....+...............+......+.+.........+.....+...+.+..............+......+......++++++++++++++++++++++++++++++++++++++++++*.+...+....+..+.+..................+............+...+..+.............+..+..........+..............+...+......+.+.....+....+..+...............++++++++++++++++++++++++++++++++++++++++++*....+.........+...+.......+..+................+............+.....+..........+......+......+......+............+..+.+..+............+...+.......+.....+......+....+...........+...................+...+......+..+...+..........+..+..........+........+................+.....+.+..+...+...............+...+....+........+............+......+.+...+.....+.......+....................+....+..+..................+....+..+....+..+.......+..+.+++++
+Certificate request self-signature ok
+subject=CN=localhost
+Running /opt/oqssa/bin/perftestRSA3072.sh with SIG_ALG= and KEM_ALG=X25519
+
+Using default temp DH parameters
+ACCEPT
+Execution 1
+s_time: verify depth is 1
+2544 connections in 2.02s; 1259.41 connections/user sec, bytes read 0
+2544 connections in 11 real seconds, 0 bytes read per connection
+Execution 2
+s_time: verify depth is 1
+2552 connections in 1.99s; 1282.41 connections/user sec, bytes read 0
+2552 connections in 11 real seconds, 0 bytes read per connection
+Execution 3
+s_time: verify depth is 1
+2013 connections in 2.20s; 915.00 connections/user sec, bytes read 0
+2013 connections in 11 real seconds, 0 bytes read per connection
+Execution 4
+s_time: verify depth is 1
+1824 connections in 2.19s; 832.88 connections/user sec, bytes read 0
+1824 connections in 11 real seconds, 0 bytes read per connection
+Execution 5
+s_time: verify depth is 1
+2096 connections in 2.19s; 957.08 connections/user sec, bytes read 0
+2096 connections in 11 real seconds, 0 bytes read per connection
+Execution 6
+s_time: verify depth is 1
+2011 connections in 2.16s; 931.02 connections/user sec, bytes read 0
+2011 connections in 11 real seconds, 0 bytes read per connection
+Execution 7
+s_time: verify depth is 1
+2112 connections in 2.17s; 973.27 connections/user sec, bytes read 0
+2112 connections in 11 real seconds, 0 bytes read per connection
+Execution 8
+s_time: verify depth is 1
+2229 connections in 2.21s; 1008.60 connections/user sec, bytes read 0
+2229 connections in 11 real seconds, 0 bytes read per connection
+Execution 9
+s_time: verify depth is 1
+2080 connections in 2.20s; 945.45 connections/user sec, bytes read 0
+2080 connections in 11 real seconds, 0 bytes read per connection
+Execution 10
+s_time: verify depth is 1
+2393 connections in 2.10s; 1139.52 connections/user sec, bytes read 0
+2393 connections in 11 real seconds, 0 bytes read per connection
+Execution 11
+s_time: verify depth is 1
+2226 connections in 2.18s; 1021.10 connections/user sec, bytes read 0
+2226 connections in 11 real seconds, 0 bytes read per connection
+Execution 12
+s_time: verify depth is 1
+2140 connections in 2.13s; 1004.69 connections/user sec, bytes read 0
+2140 connections in 11 real seconds, 0 bytes read per connection
+Execution 13
+s_time: verify depth is 1
+1833 connections in 2.18s; 840.83 connections/user sec, bytes read 0
+1833 connections in 11 real seconds, 0 bytes read per connection
+Execution 14
+s_time: verify depth is 1
+2233 connections in 2.15s; 1038.60 connections/user sec, bytes read 0
+2233 connections in 11 real seconds, 0 bytes read per connection
+Execution 15
+s_time: verify depth is 1
+1896 connections in 2.15s; 881.86 connections/user sec, bytes read 0
+1896 connections in 11 real seconds, 0 bytes read per connection
+Execution 16
+s_time: verify depth is 1
+2091 connections in 2.18s; 959.17 connections/user sec, bytes read 0
+2091 connections in 11 real seconds, 0 bytes read per connection
+Execution 17
+s_time: verify depth is 1
+1767 connections in 2.21s; 799.55 connections/user sec, bytes read 0
+1767 connections in 11 real seconds, 0 bytes read per connection
+Execution 18
+s_time: verify depth is 1
+2342 connections in 2.14s; 1094.39 connections/user sec, bytes read 0
+2342 connections in 11 real seconds, 0 bytes read per connection
+Execution 19
+s_time: verify depth is 1
+2537 connections in 2.12s; 1196.70 connections/user sec, bytes read 0
+2537 connections in 11 real seconds, 0 bytes read per connection
+Execution 20
+s_time: verify depth is 1
+2605 connections in 2.06s; 1264.56 connections/user sec, bytes read 0
+2605 connections in 11 real seconds, 0 bytes read per connection
+Execution 21
+s_time: verify depth is 1
+2535 connections in 2.07s; 1224.64 connections/user sec, bytes read 0
+2535 connections in 11 real seconds, 0 bytes read per connection
+Execution 22
+s_time: verify depth is 1
+2372 connections in 2.16s; 1098.15 connections/user sec, bytes read 0
+2372 connections in 11 real seconds, 0 bytes read per connection
+Execution 23
+s_time: verify depth is 1
+2299 connections in 2.11s; 1089.57 connections/user sec, bytes read 0
+2299 connections in 11 real seconds, 0 bytes read per connection
+Execution 24
+s_time: verify depth is 1
+2306 connections in 2.17s; 1062.67 connections/user sec, bytes read 0
+2306 connections in 11 real seconds, 0 bytes read per connection
+Execution 25
+s_time: verify depth is 1
+2295 connections in 2.15s; 1067.44 connections/user sec, bytes read 0
+2295 connections in 11 real seconds, 0 bytes read per connection
+Execution 26
+s_time: verify depth is 1
+2248 connections in 2.18s; 1031.19 connections/user sec, bytes read 0
+2248 connections in 11 real seconds, 0 bytes read per connection
+Execution 27
+s_time: verify depth is 1
+2250 connections in 2.19s; 1027.40 connections/user sec, bytes read 0
+2250 connections in 11 real seconds, 0 bytes read per connection
+Execution 28
+s_time: verify depth is 1
+2414 connections in 2.14s; 1128.04 connections/user sec, bytes read 0
+2414 connections in 11 real seconds, 0 bytes read per connection
+Execution 29
+s_time: verify depth is 1
+2374 connections in 2.16s; 1099.07 connections/user sec, bytes read 0
+2374 connections in 11 real seconds, 0 bytes read per connection
+Execution 30
+s_time: verify depth is 1
+2271 connections in 2.20s; 1032.27 connections/user sec, bytes read 0
+2271 connections in 11 real seconds, 0 bytes read per connection
+Execution 31
+s_time: verify depth is 1
+1622 connections in 2.26s; 717.70 connections/user sec, bytes read 0
+1622 connections in 11 real seconds, 0 bytes read per connection
+Execution 32
+s_time: verify depth is 1
+1790 connections in 2.24s; 799.11 connections/user sec, bytes read 0
+1790 connections in 11 real seconds, 0 bytes read per connection
+Execution 33
+s_time: verify depth is 1
+1905 connections in 2.26s; 842.92 connections/user sec, bytes read 0
+1905 connections in 11 real seconds, 0 bytes read per connection
+Execution 34
+s_time: verify depth is 1
+2072 connections in 2.19s; 946.12 connections/user sec, bytes read 0
+2072 connections in 11 real seconds, 0 bytes read per connection
+Execution 35
+s_time: verify depth is 1
+1991 connections in 2.17s; 917.51 connections/user sec, bytes read 0
+1991 connections in 11 real seconds, 0 bytes read per connection
+Execution 36
+s_time: verify depth is 1
+2073 connections in 2.16s; 959.72 connections/user sec, bytes read 0
+2073 connections in 11 real seconds, 0 bytes read per connection
+Execution 37
+s_time: verify depth is 1
+2090 connections in 2.21s; 945.70 connections/user sec, bytes read 0
+2090 connections in 11 real seconds, 0 bytes read per connection
+Execution 38
+s_time: verify depth is 1
+1906 connections in 2.21s; 862.44 connections/user sec, bytes read 0
+1906 connections in 11 real seconds, 0 bytes read per connection
+Execution 39
+s_time: verify depth is 1
+1962 connections in 2.23s; 879.82 connections/user sec, bytes read 0
+1962 connections in 11 real seconds, 0 bytes read per connection
+Execution 40
+s_time: verify depth is 1
+1788 connections in 2.25s; 794.67 connections/user sec, bytes read 0
+1788 connections in 11 real seconds, 0 bytes read per connection
+Execution 41
+s_time: verify depth is 1
+1798 connections in 2.20s; 817.27 connections/user sec, bytes read 0
+1798 connections in 11 real seconds, 0 bytes read per connection
+Execution 42
+s_time: verify depth is 1
+1544 connections in 2.29s; 674.24 connections/user sec, bytes read 0
+1544 connections in 11 real seconds, 0 bytes read per connection
+Execution 43
+s_time: verify depth is 1
+1494 connections in 2.28s; 655.26 connections/user sec, bytes read 0
+1494 connections in 11 real seconds, 0 bytes read per connection
+Execution 44
+s_time: verify depth is 1
+1795 connections in 2.28s; 787.28 connections/user sec, bytes read 0
+1795 connections in 11 real seconds, 0 bytes read per connection
+Execution 45
+s_time: verify depth is 1
+1444 connections in 2.31s; 625.11 connections/user sec, bytes read 0
+1444 connections in 11 real seconds, 0 bytes read per connection
+Execution 46
+s_time: verify depth is 1
+1642 connections in 2.30s; 713.91 connections/user sec, bytes read 0
+1642 connections in 11 real seconds, 0 bytes read per connection
+Execution 47
+s_time: verify depth is 1
+1521 connections in 2.30s; 661.30 connections/user sec, bytes read 0
+1521 connections in 11 real seconds, 0 bytes read per connection
+Execution 48
+s_time: verify depth is 1
+1546 connections in 2.44s; 633.61 connections/user sec, bytes read 0
+1546 connections in 11 real seconds, 0 bytes read per connection
+Execution 49
+s_time: verify depth is 1
+1248 connections in 2.30s; 542.61 connections/user sec, bytes read 0
+1248 connections in 11 real seconds, 0 bytes read per connection
+Execution 50
+s_time: verify depth is 1
+878 connections in 2.25s; 390.22 connections/user sec, bytes read 0
+878 connections in 11 real seconds, 0 bytes read per connection
+Running  GENKEY CA
+.....+......+...+..+..........+...+..++++++++++++++++++++++++++++++++++++++++++*.+.+.....+.+......+........+.+.....+..........+...............+.....+....+..+.......++++++++++++++++++++++++++++++++++++++++++*..+..+......+.+.........+.....+.+........+.+..+...+............+....+......+..............+.+............+..............................+..+.+....................+.........+.+.........+...........+.......+...+...+......+.....+....+..+...+....+...+.....+...+....+..................+........+....+...+..+......+++++
+........+...+..+.+........+..........+...........+.+..............+....+......++++++++++++++++++++++++++++++++++++++++++*.+......+...+...................+..+.+..+.+.....+......+...+......+.........+......+.+...+...+........+......+.+.........+...+......+............+........+....+...+..+.+.....+.+......+...+......+...+..+...+..........+..++++++++++++++++++++++++++++++++++++++++++*..............+...................+..+...+.........+.......+...+..+....+............+.....+....+...+.....+.+.....+......+....+.....................+....................+...+.+.........+........+...+.+........+.............+.........+.....+....+.....+.......+.....+..................+............+....+........+...+.......+...+...+...........+...............+...+.......+........+.......+.....+.....................+.........+...+.+.........+........+..........+..+.......+......+........+.......+..+.......+..................+.....+......................+...+...+...+.....+.+....................+...+.+..+.........+...............+.+.................+...............+.............+..+......+....+......+.....+.+.....+.+........+.........+.......+...........+.........+......+.........+.........+.+.........+..+.......+.....+.+............+..+..........+...+.........+.........+.........+............+...........+.............+.....+......+..........+.....+.+...+..+....+...+..+.........+.+.....+.........................+..............+.+......+..+.............+..+............+.........+.+.....+............................+..+...+.+......+.........+...............+..+...+.+...+.................+......+...+....+.....+..........+...+..................+....................+.+........+.+............+..+.+..............+.+.....+.+......+..+..........+...........+.....................+...+...+.......+.....+...+..........+.........+.....+.+..+...+....+......+.....+...+...................+......+......+.....+......+...+..........+.....................+.....+.........+.+.....+.........+.......+........+...................+..+......+....+...........+...+.+........................+.........+.................+....+..+.........+...+.+..+.............+..+...+...................+...+..................+......+...+............+.....+...............+.+..............+...+.......+.........+.....+.+...............+...........+...+.+...+..+...+.......+.....+.+...+...........+..........+.........+............+.........+.....+................+.......................+.+.....+......+.........+.+.....+.......+.....+......+...................+......+.....+.+.....+.+.........+........+......+....+......+..+.......+...+...+.........+.....+...+............+.+.....+.......+..+.......+.....+..................+++++
+Running  GENKEY SERVER
+..+............+......+.........+.+..+...+....+...+.........+......+........+....+........+...+......................+..+.+......+........+.+..+....+......+..+.+.........+.....+.......+......+.....+...+.+...+..+.............+...........+....+.....+.+...........+....+..++++++++++++++++++++++++++++++++++++++++++*.+............+.++++++++++++++++++++++++++++++++++++++++++*.......+..+.........+.+......+...+.....+....+..+......+....+........................+..+...+......+...+............+...+.+..+...................+.....+.+...+..+.............+...............+....................+....+...+........+......+......+.......+............+....................+....+.................+..........+..+.+......+...+...+.......................+.+...+...+..............+.....................+.......+..+...+.+..+....+...+........+........................+.+...+.....+....+.....+.......+.....+................+..............+...+......+.+...........+.......+...+........+.......+..+...+....+...+............+...+..+....+...........+....+..+.......+..................+...+..+....+......+..+.+...........+.+..+..................+.............+.....+......+.+.........+...........+..........+...+...........+.........+........................+.......+......+..............+.............+..+...+.+..+...+.+..............+.+...+.....+......+......+......+...+......................+........+............+.......+..+......+........................+....+.....+..........+..+.........+.+........+...............+......+.+.........+........+..........+.....................................................+++++
+........+...+..++++++++++++++++++++++++++++++++++++++++++*..++++++++++++++++++++++++++++++++++++++++++*....+..........+..+.......+......+..........................+...+.+.....+......+.+...............+..+.............+.....+..........+.................+.+.........+...........................+.....+..........+...+..+...+...+.......+.................+.............+..........................+.......+..............+.........+....+...+........+...............................+........+.+..+.............+..........................+...+.+..+...+.........+...+...+...............+....+............+...+......+.........+.................+...+...............+............+......+....+...+........+.......+.....+............+++++
+Certificate request self-signature ok
+subject=CN=localhost
+Running /opt/oqssa/bin/perftestRSA3072.sh with SIG_ALG= and KEM_ALG=P-256
+
+Using default temp DH parameters
+ACCEPT
+Execution 1
+s_time: verify depth is 1
+1454 connections in 2.39s; 608.37 connections/user sec, bytes read 0
+1454 connections in 11 real seconds, 0 bytes read per connection
+Execution 2
+s_time: verify depth is 1
+1216 connections in 2.39s; 508.79 connections/user sec, bytes read 0
+1216 connections in 11 real seconds, 0 bytes read per connection
+Execution 3
+s_time: verify depth is 1
+1628 connections in 2.55s; 638.43 connections/user sec, bytes read 0
+1628 connections in 11 real seconds, 0 bytes read per connection
+Execution 4
+s_time: verify depth is 1
+1644 connections in 2.58s; 637.21 connections/user sec, bytes read 0
+1644 connections in 11 real seconds, 0 bytes read per connection
+Execution 5
+s_time: verify depth is 1
+1184 connections in 2.48s; 477.42 connections/user sec, bytes read 0
+1184 connections in 11 real seconds, 0 bytes read per connection
+Execution 6
+s_time: verify depth is 1
+1545 connections in 2.51s; 615.54 connections/user sec, bytes read 0
+1545 connections in 11 real seconds, 0 bytes read per connection
+Execution 7
+s_time: verify depth is 1
+1429 connections in 2.42s; 590.50 connections/user sec, bytes read 0
+1429 connections in 11 real seconds, 0 bytes read per connection
+Execution 8
+s_time: verify depth is 1
+1524 connections in 2.55s; 597.65 connections/user sec, bytes read 0
+1524 connections in 11 real seconds, 0 bytes read per connection
+Execution 9
+s_time: verify depth is 1
+1500 connections in 2.48s; 604.84 connections/user sec, bytes read 0
+1500 connections in 11 real seconds, 0 bytes read per connection
+Execution 10
+s_time: verify depth is 1
+1561 connections in 2.53s; 617.00 connections/user sec, bytes read 0
+1561 connections in 11 real seconds, 0 bytes read per connection
+Execution 11
+s_time: verify depth is 1
+1464 connections in 2.52s; 580.95 connections/user sec, bytes read 0
+1464 connections in 11 real seconds, 0 bytes read per connection
+Execution 12
+s_time: verify depth is 1
+1257 connections in 2.47s; 508.91 connections/user sec, bytes read 0
+1257 connections in 11 real seconds, 0 bytes read per connection
+Execution 13
+s_time: verify depth is 1
+1440 connections in 2.53s; 569.17 connections/user sec, bytes read 0
+1440 connections in 11 real seconds, 0 bytes read per connection
+Execution 14
+s_time: verify depth is 1
+1398 connections in 2.50s; 559.20 connections/user sec, bytes read 0
+1398 connections in 11 real seconds, 0 bytes read per connection
+Execution 15
+s_time: verify depth is 1
+1438 connections in 2.50s; 575.20 connections/user sec, bytes read 0
+1438 connections in 11 real seconds, 0 bytes read per connection
+Execution 16
+s_time: verify depth is 1
+1505 connections in 2.51s; 599.60 connections/user sec, bytes read 0
+1505 connections in 11 real seconds, 0 bytes read per connection
+Execution 17
+s_time: verify depth is 1
+1215 connections in 2.51s; 484.06 connections/user sec, bytes read 0
+1215 connections in 11 real seconds, 0 bytes read per connection
+Execution 18
+s_time: verify depth is 1
+1270 connections in 2.47s; 514.17 connections/user sec, bytes read 0
+1270 connections in 11 real seconds, 0 bytes read per connection
+Execution 19
+s_time: verify depth is 1
+1409 connections in 2.53s; 556.92 connections/user sec, bytes read 0
+1409 connections in 11 real seconds, 0 bytes read per connection
+Execution 20
+s_time: verify depth is 1
+1295 connections in 2.55s; 507.84 connections/user sec, bytes read 0
+1295 connections in 11 real seconds, 0 bytes read per connection
+Execution 21
+s_time: verify depth is 1
+1607 connections in 2.50s; 642.80 connections/user sec, bytes read 0
+1607 connections in 11 real seconds, 0 bytes read per connection
+Execution 22
+s_time: verify depth is 1
+1983 connections in 2.37s; 836.71 connections/user sec, bytes read 0
+1983 connections in 11 real seconds, 0 bytes read per connection
+Execution 23
+s_time: verify depth is 1
+1976 connections in 2.46s; 803.25 connections/user sec, bytes read 0
+1976 connections in 11 real seconds, 0 bytes read per connection
+Execution 24
+s_time: verify depth is 1
+1509 connections in 2.34s; 644.87 connections/user sec, bytes read 0
+1509 connections in 11 real seconds, 0 bytes read per connection
+Execution 25
+s_time: verify depth is 1
+1419 connections in 2.43s; 583.95 connections/user sec, bytes read 0
+1419 connections in 11 real seconds, 0 bytes read per connection
+Execution 26
+s_time: verify depth is 1
+1378 connections in 2.45s; 562.45 connections/user sec, bytes read 0
+1378 connections in 11 real seconds, 0 bytes read per connection
+Execution 27
+s_time: verify depth is 1
+1932 connections in 2.40s; 805.00 connections/user sec, bytes read 0
+1932 connections in 11 real seconds, 0 bytes read per connection
+Execution 28
+s_time: verify depth is 1
+2036 connections in 2.45s; 831.02 connections/user sec, bytes read 0
+2036 connections in 11 real seconds, 0 bytes read per connection
+Execution 29
+s_time: verify depth is 1
+1585 connections in 2.37s; 668.78 connections/user sec, bytes read 0
+1585 connections in 11 real seconds, 0 bytes read per connection
+Execution 30
+s_time: verify depth is 1
+2123 connections in 2.35s; 903.40 connections/user sec, bytes read 0
+2123 connections in 11 real seconds, 0 bytes read per connection
+Execution 31
+s_time: verify depth is 1
+2207 connections in 2.27s; 972.25 connections/user sec, bytes read 0
+2207 connections in 11 real seconds, 0 bytes read per connection
+Execution 32
+s_time: verify depth is 1
+1851 connections in 2.34s; 791.03 connections/user sec, bytes read 0
+1851 connections in 11 real seconds, 0 bytes read per connection
+Execution 33
+s_time: verify depth is 1
+2149 connections in 2.39s; 899.16 connections/user sec, bytes read 0
+2149 connections in 11 real seconds, 0 bytes read per connection
+Execution 34
+s_time: verify depth is 1
+1953 connections in 2.37s; 824.05 connections/user sec, bytes read 0
+1953 connections in 11 real seconds, 0 bytes read per connection
+Execution 35
+s_time: verify depth is 1
+1910 connections in 2.36s; 809.32 connections/user sec, bytes read 0
+1910 connections in 11 real seconds, 0 bytes read per connection
+Execution 36
+s_time: verify depth is 1
+2188 connections in 2.33s; 939.06 connections/user sec, bytes read 0
+2188 connections in 11 real seconds, 0 bytes read per connection
+Execution 37
+s_time: verify depth is 1
+1955 connections in 2.41s; 811.20 connections/user sec, bytes read 0
+1955 connections in 11 real seconds, 0 bytes read per connection
+Execution 38
+s_time: verify depth is 1
+2031 connections in 2.33s; 871.67 connections/user sec, bytes read 0
+2031 connections in 11 real seconds, 0 bytes read per connection
+Execution 39
+s_time: verify depth is 1
+2074 connections in 2.37s; 875.11 connections/user sec, bytes read 0
+2074 connections in 11 real seconds, 0 bytes read per connection
+Execution 40
+s_time: verify depth is 1
+1868 connections in 2.37s; 788.19 connections/user sec, bytes read 0
+1868 connections in 11 real seconds, 0 bytes read per connection
+Execution 41
+s_time: verify depth is 1
+2272 connections in 2.29s; 992.14 connections/user sec, bytes read 0
+2272 connections in 11 real seconds, 0 bytes read per connection
+Execution 42
+s_time: verify depth is 1
+2201 connections in 2.32s; 948.71 connections/user sec, bytes read 0
+2201 connections in 11 real seconds, 0 bytes read per connection
+Execution 43
+s_time: verify depth is 1
+1940 connections in 2.35s; 825.53 connections/user sec, bytes read 0
+1940 connections in 11 real seconds, 0 bytes read per connection
+Execution 44
+s_time: verify depth is 1
+1914 connections in 2.37s; 807.59 connections/user sec, bytes read 0
+1914 connections in 11 real seconds, 0 bytes read per connection
+Execution 45
+s_time: verify depth is 1
+2172 connections in 2.37s; 916.46 connections/user sec, bytes read 0
+2172 connections in 11 real seconds, 0 bytes read per connection
+Execution 46
+s_time: verify depth is 1
+2327 connections in 2.34s; 994.44 connections/user sec, bytes read 0
+2327 connections in 11 real seconds, 0 bytes read per connection
+Execution 47
+s_time: verify depth is 1
+1853 connections in 2.38s; 778.57 connections/user sec, bytes read 0
+1853 connections in 11 real seconds, 0 bytes read per connection
+Execution 48
+s_time: verify depth is 1
+2232 connections in 2.32s; 962.07 connections/user sec, bytes read 0
+2232 connections in 11 real seconds, 0 bytes read per connection
+Execution 49
+s_time: verify depth is 1
+2225 connections in 2.25s; 988.89 connections/user sec, bytes read 0
+2225 connections in 11 real seconds, 0 bytes read per connection
+Execution 50
+s_time: verify depth is 1
+1938 connections in 2.39s; 810.88 connections/user sec, bytes read 0
+1938 connections in 11 real seconds, 0 bytes read per connection
+Running  GENKEY CA
+......+.....+.+..+.........+...................+..+.......++++++++++++++++++++++++++++++++++++++++++*.........++++++++++++++++++++++++++++++++++++++++++*.........+..+.+.....................+........+......+.+....................+......+...+......+.+.....+....+........+.+............+..................+.....+.+.....+.........+...................+...+...+.....+............+....+...........+....+...+.....+.......+...+...+..+......+...............+.........+...+....+...+..+................+...+........................+.................+..........+......+...+..+....+........+............+......+..........+.....+.........+......+...+.+...+...+.........+.........+.................+....+...+..+.+............+......+.........+......+..+.............+......+...+...+........+....+...........+............+...+......+.+........+.....................+...+.......+...+..+....+......+.......................+.+......+.........+......+...........+.......+...+...+..+...+......+...+.......+.....+................+..+...+...+....+..................+...+...........+...................+...........+...+..................+....+.....................+..+......+.+.........+...........+.........+......+.........+.......+..+.......+........+.+++++
+..+.+...........+....+......+......+........+....++++++++++++++++++++++++++++++++++++++++++*.+.+......+.....+............+............+......+...+......+...+.+.........+..+....+..+...+.+........+..........+..+..........+........+...+....+...+...++++++++++++++++++++++++++++++++++++++++++*.....................+...+.....+.......+.....+....+...+...........+.+....................+...+.......+........+...+...+.......+.........+...............+.....+...+..........+........+...+.+...+..+.............+........+.............+......+...+..................+..+......+.......+...+......+.....+.+........+.......+............+...+.....+..................+.......+.........+...+.....................+..+...+............+....+...........+.......+...+..+...............+.+.........+...+...+...............+.................+++++
+Running  GENKEY SERVER
+.........+..+...+............+.+..+...+...++++++++++++++++++++++++++++++++++++++++++*....+.+...........+.......+..+......+....+...+...+.....++++++++++++++++++++++++++++++++++++++++++*..+.....+............+...+...................+.........+..+.......+...+...+..............+......+....+...+............+..+............................+..+....+..+...+.......+..+.............+...+..............+............+...+...+....+.......................+..............................+.+..+..........+.........+......+...+............+.....+.......+...............+...+.........+........+.+.................+.........+...+.+......+..................+..+.+..+.......+.........+.....+............+....+...+..+....+..+....+...+...+.....+...+......+...+.+......+....................+...+.......+...+...+........+....+.................+....+.....+...................+...+..............+.+.....+...+.+...............+.........+..+.........+.+.......................+.+......+..+...+....+.....+..........+.....+...+...+...+.+........+............................+...+......+........+.............+.........+...+++++
+........+......+...+.++++++++++++++++++++++++++++++++++++++++++*......+..........+.....+............+..........+........+...+.+...+...+..+.+..+...+.+........+......+.+........+.+......+...+...+.....+.......+........+...+.......+............+...........+.+.........+.....+......+...............+.+..+.+..+.......+.....+............+....+.....+......+......+.......+.....+.+..+....+......+..+.+.....+..........+...........+.+..+............++++++++++++++++++++++++++++++++++++++++++*.......+....+.....+.........+.+.........+...........+...............+...................+...........+.+..+.............+.................+.......+..........................+.........................+..+.+......+...+...+.........+..................+..+.+..+.......+......+.....+...............+....+.....+....+.....................+.....+...+.+............+.................+...+.......+...+.....+.......+..+.+.....+.............+..+.......+......+......+...+..+....+........................+.....+..................+...+.........+..................+...+....+...........+.+...+...+...+.....+.+..................+...+.....+.........+.+........+.........+...+....+..................+......+.........+..+.........+.+.....+...+.+..+..........+...............+........+......+..........+.....+....+.........+...+........+...............+.........+.+............+............+..+.............+........+....+...+..+....+..+...+.......+.....+....+....................+...+..........+..+.+..............+...............+...+..................+...+.+...........+....+......+.........+.....+....+.....+.+......+.....+....+.....+.........+................+...+.....+...+....+..............+....+......+.....+................+...+.....+...+......................+...+...+..............+.+..+..........+..+.+..+.........+...................+.....+......+......+...+....+........+...+......+.............+..+.........+....+...+........+++++
+Certificate request self-signature ok
+subject=CN=localhost
+Running /opt/oqssa/bin/perftestRSA3072.sh with SIG_ALG= and KEM_ALG=kyber512
+
+Using default temp DH parameters
+ACCEPT
+Execution 1
+s_time: verify depth is 1
+2107 connections in 1.96s; 1075.00 connections/user sec, bytes read 0
+2107 connections in 11 real seconds, 0 bytes read per connection
+Execution 2
+s_time: verify depth is 1
+2305 connections in 1.98s; 1164.14 connections/user sec, bytes read 0
+2305 connections in 11 real seconds, 0 bytes read per connection
+Execution 3
+s_time: verify depth is 1
+2119 connections in 2.07s; 1023.67 connections/user sec, bytes read 0
+2119 connections in 11 real seconds, 0 bytes read per connection
+Execution 4
+s_time: verify depth is 1
+2554 connections in 2.13s; 1199.06 connections/user sec, bytes read 0
+2554 connections in 11 real seconds, 0 bytes read per connection
+Execution 5
+s_time: verify depth is 1
+2231 connections in 2.02s; 1104.46 connections/user sec, bytes read 0
+2231 connections in 11 real seconds, 0 bytes read per connection
+Execution 6
+s_time: verify depth is 1
+2055 connections in 2.06s; 997.57 connections/user sec, bytes read 0
+2055 connections in 11 real seconds, 0 bytes read per connection
+Execution 7
+s_time: verify depth is 1
+2114 connections in 2.01s; 1051.74 connections/user sec, bytes read 0
+2114 connections in 11 real seconds, 0 bytes read per connection
+Execution 8
+s_time: verify depth is 1
+2264 connections in 1.94s; 1167.01 connections/user sec, bytes read 0
+2264 connections in 11 real seconds, 0 bytes read per connection
+Execution 9
+s_time: verify depth is 1
+2301 connections in 1.92s; 1198.44 connections/user sec, bytes read 0
+2301 connections in 11 real seconds, 0 bytes read per connection
+Execution 10
+s_time: verify depth is 1
+2361 connections in 2.22s; 1063.51 connections/user sec, bytes read 0
+2361 connections in 11 real seconds, 0 bytes read per connection
+Execution 11
+s_time: verify depth is 1
+2236 connections in 2.21s; 1011.76 connections/user sec, bytes read 0
+2236 connections in 11 real seconds, 0 bytes read per connection
+Execution 12
+s_time: verify depth is 1
+1938 connections in 2.17s; 893.09 connections/user sec, bytes read 0
+1938 connections in 11 real seconds, 0 bytes read per connection
+Execution 13
+s_time: verify depth is 1
+1935 connections in 2.11s; 917.06 connections/user sec, bytes read 0
+1935 connections in 11 real seconds, 0 bytes read per connection
+Execution 14
+s_time: verify depth is 1
+2557 connections in 2.14s; 1194.86 connections/user sec, bytes read 0
+2557 connections in 11 real seconds, 0 bytes read per connection
+Execution 15
+s_time: verify depth is 1
+2635 connections in 2.21s; 1192.31 connections/user sec, bytes read 0
+2635 connections in 11 real seconds, 0 bytes read per connection
+Execution 16
+s_time: verify depth is 1
+2667 connections in 2.21s; 1206.79 connections/user sec, bytes read 0
+2667 connections in 11 real seconds, 0 bytes read per connection
+Execution 17
+s_time: verify depth is 1
+2677 connections in 2.19s; 1222.37 connections/user sec, bytes read 0
+2677 connections in 11 real seconds, 0 bytes read per connection
+Execution 18
+s_time: verify depth is 1
+2680 connections in 2.26s; 1185.84 connections/user sec, bytes read 0
+2680 connections in 11 real seconds, 0 bytes read per connection
+Execution 19
+s_time: verify depth is 1
+2656 connections in 2.24s; 1185.71 connections/user sec, bytes read 0
+2656 connections in 11 real seconds, 0 bytes read per connection
+Execution 20
+s_time: verify depth is 1
+2476 connections in 2.20s; 1125.45 connections/user sec, bytes read 0
+2476 connections in 11 real seconds, 0 bytes read per connection
+Execution 21
+s_time: verify depth is 1
+2242 connections in 2.05s; 1093.66 connections/user sec, bytes read 0
+2242 connections in 11 real seconds, 0 bytes read per connection
+Execution 22
+s_time: verify depth is 1
+2594 connections in 1.96s; 1323.47 connections/user sec, bytes read 0
+2594 connections in 11 real seconds, 0 bytes read per connection
+Execution 23
+s_time: verify depth is 1
+2315 connections in 1.98s; 1169.19 connections/user sec, bytes read 0
+2315 connections in 11 real seconds, 0 bytes read per connection
+Execution 24
+s_time: verify depth is 1
+2261 connections in 1.98s; 1141.92 connections/user sec, bytes read 0
+2261 connections in 11 real seconds, 0 bytes read per connection
+Execution 25
+s_time: verify depth is 1
+2266 connections in 2.02s; 1121.78 connections/user sec, bytes read 0
+2266 connections in 11 real seconds, 0 bytes read per connection
+Execution 26
+s_time: verify depth is 1
+2258 connections in 2.00s; 1129.00 connections/user sec, bytes read 0
+2258 connections in 11 real seconds, 0 bytes read per connection
+Execution 27
+s_time: verify depth is 1
+2304 connections in 1.95s; 1181.54 connections/user sec, bytes read 0
+2304 connections in 11 real seconds, 0 bytes read per connection
+Execution 28
+s_time: verify depth is 1
+2421 connections in 1.93s; 1254.40 connections/user sec, bytes read 0
+2421 connections in 11 real seconds, 0 bytes read per connection
+Execution 29
+s_time: verify depth is 1
+2313 connections in 2.03s; 1139.41 connections/user sec, bytes read 0
+2313 connections in 11 real seconds, 0 bytes read per connection
+Execution 30
+s_time: verify depth is 1
+2040 connections in 2.11s; 966.82 connections/user sec, bytes read 0
+2040 connections in 11 real seconds, 0 bytes read per connection
+Execution 31
+s_time: verify depth is 1
+1906 connections in 2.13s; 894.84 connections/user sec, bytes read 0
+1906 connections in 11 real seconds, 0 bytes read per connection
+Execution 32
+s_time: verify depth is 1
+1928 connections in 2.23s; 864.57 connections/user sec, bytes read 0
+1928 connections in 11 real seconds, 0 bytes read per connection
+Execution 33
+s_time: verify depth is 1
+842 connections in 1.96s; 429.59 connections/user sec, bytes read 0
+842 connections in 11 real seconds, 0 bytes read per connection
+Execution 34
+s_time: verify depth is 1
+1041 connections in 2.04s; 510.29 connections/user sec, bytes read 0
+1041 connections in 11 real seconds, 0 bytes read per connection
+Execution 35
+s_time: verify depth is 1
+1301 connections in 2.28s; 570.61 connections/user sec, bytes read 0
+1301 connections in 11 real seconds, 0 bytes read per connection
+Execution 36
+s_time: verify depth is 1
+1849 connections in 2.19s; 844.29 connections/user sec, bytes read 0
+1849 connections in 11 real seconds, 0 bytes read per connection
+Execution 37
+s_time: verify depth is 1
+2023 connections in 2.16s; 936.57 connections/user sec, bytes read 0
+2023 connections in 11 real seconds, 0 bytes read per connection
+Execution 38
+s_time: verify depth is 1
+1806 connections in 2.14s; 843.93 connections/user sec, bytes read 0
+1806 connections in 11 real seconds, 0 bytes read per connection
+Execution 39
+s_time: verify depth is 1
+2117 connections in 2.05s; 1032.68 connections/user sec, bytes read 0
+2117 connections in 11 real seconds, 0 bytes read per connection
+Execution 40
+s_time: verify depth is 1
+2064 connections in 2.19s; 942.47 connections/user sec, bytes read 0
+2064 connections in 11 real seconds, 0 bytes read per connection
+Execution 41
+s_time: verify depth is 1
+1786 connections in 2.11s; 846.45 connections/user sec, bytes read 0
+1786 connections in 11 real seconds, 0 bytes read per connection
+Execution 42
+s_time: verify depth is 1
+2329 connections in 2.22s; 1049.10 connections/user sec, bytes read 0
+2329 connections in 11 real seconds, 0 bytes read per connection
+Execution 43
+s_time: verify depth is 1
+2027 connections in 2.17s; 934.10 connections/user sec, bytes read 0
+2027 connections in 11 real seconds, 0 bytes read per connection
+Execution 44
+s_time: verify depth is 1
+1914 connections in 2.18s; 877.98 connections/user sec, bytes read 0
+1914 connections in 11 real seconds, 0 bytes read per connection
+Execution 45
+s_time: verify depth is 1
+1754 connections in 2.22s; 790.09 connections/user sec, bytes read 0
+1754 connections in 11 real seconds, 0 bytes read per connection
+Execution 46
+s_time: verify depth is 1
+2051 connections in 2.14s; 958.41 connections/user sec, bytes read 0
+2051 connections in 11 real seconds, 0 bytes read per connection
+Execution 47
+s_time: verify depth is 1
+2314 connections in 2.17s; 1066.36 connections/user sec, bytes read 0
+2314 connections in 11 real seconds, 0 bytes read per connection
+Execution 48
+s_time: verify depth is 1
+2120 connections in 2.12s; 1000.00 connections/user sec, bytes read 0
+2120 connections in 11 real seconds, 0 bytes read per connection
+Execution 49
+s_time: verify depth is 1
+1606 connections in 2.17s; 740.09 connections/user sec, bytes read 0
+1606 connections in 11 real seconds, 0 bytes read per connection
+Execution 50
+s_time: verify depth is 1
+1820 connections in 2.04s; 892.16 connections/user sec, bytes read 0
+1820 connections in 11 real seconds, 0 bytes read per connection
+Running  GENKEY CA
+...+............................+..+.......+...+...+............+..+....+..+.......+............+...+..+...+...+...+.........+......+....+..................+..+............+......+...+.+...+......+..+++++++++++++++++++++++++++++++++++++++++++++*.+..........+...........+....+..+....+..+....+..............+....+.....+...+...+.+...+..+....+...........+.........+.+.....+...+..........+..+.........+.......+..+...............+.+..............+.......+.....+...................+..+++++++++++++++++++++++++++++++++++++++++++++*..+..+.............+..+...+...+..........+..................+..............+...+.......+...............+..+.............+...............+......+.................+....+.........+.....+......+...............+.+..+......+.+......+.................+...+....+...+........+....+...........+....+.....+...+.+...........+...+.+......+...+...+.........+......+...+...........+...+.+......+........+.......+.........+..+...+....+..+...+......+.........+.+.....+................+.........+..+..........+...+...........+.....................+++++
+..+++++++++++++++++++++++++++++++++++++++++++++*....+.+...........+++++++++++++++++++++++++++++++++++++++++++++*...+....+...........+...+.+...+..+...............+..........+...........+.......+...+..............+...+......+................+...+..+.+........+..........+............+.....+.........+...+.......+...+......+......+...+............+.........+..+.......+...........+.......+...+............+..+............+.............+++++
+Running  GENKEY SERVER
+...+.....+.......+.........+.....+...+...+....+.....+.+...+..+.......+...+.....+............+++++++++++++++++++++++++++++++++++++++++++++*.+...+......+..+++++++++++++++++++++++++++++++++++++++++++++*...................+.......+...........+.........+...+....+..............+..........+..+....+......+..+...+...............+.........+.+...+...........................+.....+...+......................+...+..............+..........+......+..+.........+..................+.+.........+.................+....+........................+..+........................+.......+..+.+.........+..+..........+...+.....+.+...........................+..+.......+...+........+....+......+.....+..........+...+......+...+..+.........+.....................+...+.+.....+......+....+.........+..+.+.....+...+.+...+...........+.......+............+...........+.+...+.....+......+.........+.......+.........+..+....+...........+...+.......+........+....+........+.........+..................+.......+...+..+....+..............+.+............+..+..........+...+..................+++++
+.....+.+......+.....+....+......+.........+.....+....+.........+........+.......+.....+.......+...+...+.....+.......+......+...............+..+....+.....+.+.....+....+...+++++++++++++++++++++++++++++++++++++++++++++*......+...............+++++++++++++++++++++++++++++++++++++++++++++*.....+...+......+...+..+...+.......+...+........+.........+.+..+...+.......+.....+.....................+.+........+.............+...+..+...+....+..+.............+......+.....+....+..........................+.........+.+....................+.+.........+.........+..+.........+......+...................+......+...........+....+........+...+..........+..+....................................+....+......+.....+....+............+...+..+....+.....+....+............+........+.......+......+.....+....+......+..+...+...+..........+.....+.......+....................+....+........+......+....+..+.+..+......+......+.+.....+.........+.........+.......+...+.....+....+.....+.+..+...................+.........+.....+........................+...+.......+........+...+.+......+.....+......................+......+..+..........+............+............+.....+...+...+.........+...+.......+...+...+........+....+.....+..........+......+.....+....+....................+.+..............+..................+....+...+..+.+..............+.+..+............+...+.+......+.........+..+.............+...........+...+.+.....+.+........+......+.......+.....+.......+...+...+..............+...+.............+.........+...........+......+.+...+..............+...+...........................+.+......+.....+........................+......+........................+....+..+......+.............+.....+....+...+..................+......+...+......+......+.....+.+..+.......+.......................+.............+........+.......+.....+............+...+..........+..+......+.+.....+....+....................+......+.+....................+...+.........+...............+.+...............+.....+.+.....+....+.................+..........+..+......+....+........+...+......+......+....+...+......+.....+....+...+..+..........+...+........+................+......+........+.+...+..+......+...+..........+..+...................+........+...+.......+............+.....+.+.....+....+...........+.......+..................+..+.+.................+.......+........+...+......+..........+..............+.......+.....+...+.+.........+..+.........+....+..+....+...+....................+......+..........+...........+.+.....+.........+........................+....+......+++++
+Certificate request self-signature ok
+subject=CN=localhost
+Running /opt/oqssa/bin/perftestRSA4096.sh with SIG_ALG= and KEM_ALG=x448
+
+Using default temp DH parameters
+ACCEPT
+Execution 1
+s_time: verify depth is 1
+870 connections in 1.81s; 480.66 connections/user sec, bytes read 0
+870 connections in 11 real seconds, 0 bytes read per connection
+Execution 2
+s_time: verify depth is 1
+1010 connections in 1.81s; 558.01 connections/user sec, bytes read 0
+1010 connections in 11 real seconds, 0 bytes read per connection
+Execution 3
+s_time: verify depth is 1
+1083 connections in 1.83s; 591.80 connections/user sec, bytes read 0
+1083 connections in 11 real seconds, 0 bytes read per connection
+Execution 4
+s_time: verify depth is 1
+857 connections in 1.80s; 476.11 connections/user sec, bytes read 0
+857 connections in 11 real seconds, 0 bytes read per connection
+Execution 5
+s_time: verify depth is 1
+974 connections in 1.96s; 496.94 connections/user sec, bytes read 0
+974 connections in 11 real seconds, 0 bytes read per connection
+Execution 6
+s_time: verify depth is 1
+881 connections in 1.87s; 471.12 connections/user sec, bytes read 0
+881 connections in 11 real seconds, 0 bytes read per connection
+Execution 7
+s_time: verify depth is 1
+1136 connections in 1.84s; 617.39 connections/user sec, bytes read 0
+1136 connections in 11 real seconds, 0 bytes read per connection
+Execution 8
+s_time: verify depth is 1
+1161 connections in 1.85s; 627.57 connections/user sec, bytes read 0
+1161 connections in 11 real seconds, 0 bytes read per connection
+Execution 9
+s_time: verify depth is 1
+1162 connections in 1.83s; 634.97 connections/user sec, bytes read 0
+1162 connections in 11 real seconds, 0 bytes read per connection
+Execution 10
+s_time: verify depth is 1
+1177 connections in 1.88s; 626.06 connections/user sec, bytes read 0
+1177 connections in 11 real seconds, 0 bytes read per connection
+Execution 11
+s_time: verify depth is 1
+1135 connections in 1.87s; 606.95 connections/user sec, bytes read 0
+1135 connections in 11 real seconds, 0 bytes read per connection
+Execution 12
+s_time: verify depth is 1
+1090 connections in 1.85s; 589.19 connections/user sec, bytes read 0
+1090 connections in 11 real seconds, 0 bytes read per connection
+Execution 13
+s_time: verify depth is 1
+367 connections in 1.71s; 214.62 connections/user sec, bytes read 0
+367 connections in 11 real seconds, 0 bytes read per connection
+Execution 14
+s_time: verify depth is 1
+537 connections in 1.84s; 291.85 connections/user sec, bytes read 0
+537 connections in 11 real seconds, 0 bytes read per connection
+Execution 15
+s_time: verify depth is 1
+621 connections in 1.75s; 354.86 connections/user sec, bytes read 0
+621 connections in 11 real seconds, 0 bytes read per connection
+Execution 16
+s_time: verify depth is 1
+1029 connections in 1.85s; 556.22 connections/user sec, bytes read 0
+1029 connections in 11 real seconds, 0 bytes read per connection
+Execution 17
+s_time: verify depth is 1
+1045 connections in 1.94s; 538.66 connections/user sec, bytes read 0
+1045 connections in 11 real seconds, 0 bytes read per connection
+Execution 18
+s_time: verify depth is 1
+1195 connections in 1.91s; 625.65 connections/user sec, bytes read 0
+1195 connections in 11 real seconds, 0 bytes read per connection
+Execution 19
+s_time: verify depth is 1
+1002 connections in 1.75s; 572.57 connections/user sec, bytes read 0
+1002 connections in 11 real seconds, 0 bytes read per connection
+Execution 20
+s_time: verify depth is 1
+1178 connections in 1.86s; 633.33 connections/user sec, bytes read 0
+1178 connections in 11 real seconds, 0 bytes read per connection
+Execution 21
+s_time: verify depth is 1
+1244 connections in 1.83s; 679.78 connections/user sec, bytes read 0
+1244 connections in 11 real seconds, 0 bytes read per connection
+Execution 22
+s_time: verify depth is 1
+1229 connections in 1.85s; 664.32 connections/user sec, bytes read 0
+1229 connections in 11 real seconds, 0 bytes read per connection
+Execution 23
+s_time: verify depth is 1
+1193 connections in 1.88s; 634.57 connections/user sec, bytes read 0
+1193 connections in 11 real seconds, 0 bytes read per connection
+Execution 24
+s_time: verify depth is 1
+1167 connections in 1.88s; 620.74 connections/user sec, bytes read 0
+1167 connections in 11 real seconds, 0 bytes read per connection
+Execution 25
+s_time: verify depth is 1
+1100 connections in 1.86s; 591.40 connections/user sec, bytes read 0
+1100 connections in 11 real seconds, 0 bytes read per connection
+Execution 26
+s_time: verify depth is 1
+833 connections in 1.80s; 462.78 connections/user sec, bytes read 0
+833 connections in 11 real seconds, 0 bytes read per connection
+Execution 27
+s_time: verify depth is 1
+1065 connections in 1.84s; 578.80 connections/user sec, bytes read 0
+1065 connections in 11 real seconds, 0 bytes read per connection
+Execution 28
+s_time: verify depth is 1
+1236 connections in 1.85s; 668.11 connections/user sec, bytes read 0
+1236 connections in 11 real seconds, 0 bytes read per connection
+Execution 29
+s_time: verify depth is 1
+1174 connections in 1.86s; 631.18 connections/user sec, bytes read 0
+1174 connections in 11 real seconds, 0 bytes read per connection
+Execution 30
+s_time: verify depth is 1
+1252 connections in 1.83s; 684.15 connections/user sec, bytes read 0
+1252 connections in 11 real seconds, 0 bytes read per connection
+Execution 31
+s_time: verify depth is 1
+1251 connections in 1.82s; 687.36 connections/user sec, bytes read 0
+1251 connections in 11 real seconds, 0 bytes read per connection
+Execution 32
+s_time: verify depth is 1
+1258 connections in 1.86s; 676.34 connections/user sec, bytes read 0
+1258 connections in 11 real seconds, 0 bytes read per connection
+Execution 33
+s_time: verify depth is 1
+1255 connections in 1.82s; 689.56 connections/user sec, bytes read 0
+1255 connections in 11 real seconds, 0 bytes read per connection
+Execution 34
+s_time: verify depth is 1
+1253 connections in 1.87s; 670.05 connections/user sec, bytes read 0
+1253 connections in 11 real seconds, 0 bytes read per connection
+Execution 35
+s_time: verify depth is 1
+1263 connections in 1.82s; 693.96 connections/user sec, bytes read 0
+1263 connections in 11 real seconds, 0 bytes read per connection
+Execution 36
+s_time: verify depth is 1
+1263 connections in 1.80s; 701.67 connections/user sec, bytes read 0
+1263 connections in 11 real seconds, 0 bytes read per connection
+Execution 37
+s_time: verify depth is 1
+1266 connections in 1.82s; 695.60 connections/user sec, bytes read 0
+1266 connections in 11 real seconds, 0 bytes read per connection
+Execution 38
+s_time: verify depth is 1
+1272 connections in 1.84s; 691.30 connections/user sec, bytes read 0
+1272 connections in 11 real seconds, 0 bytes read per connection
+Execution 39
+s_time: verify depth is 1
+1249 connections in 1.81s; 690.06 connections/user sec, bytes read 0
+1249 connections in 11 real seconds, 0 bytes read per connection
+Execution 40
+s_time: verify depth is 1
+1260 connections in 1.79s; 703.91 connections/user sec, bytes read 0
+1260 connections in 11 real seconds, 0 bytes read per connection
+Execution 41
+s_time: verify depth is 1
+1268 connections in 1.79s; 708.38 connections/user sec, bytes read 0
+1268 connections in 11 real seconds, 0 bytes read per connection
+Execution 42
+s_time: verify depth is 1
+1260 connections in 1.81s; 696.13 connections/user sec, bytes read 0
+1260 connections in 11 real seconds, 0 bytes read per connection
+Execution 43
+s_time: verify depth is 1
+1268 connections in 1.85s; 685.41 connections/user sec, bytes read 0
+1268 connections in 11 real seconds, 0 bytes read per connection
+Execution 44
+s_time: verify depth is 1
+1229 connections in 1.82s; 675.27 connections/user sec, bytes read 0
+1229 connections in 11 real seconds, 0 bytes read per connection
+Execution 45
+s_time: verify depth is 1
+1271 connections in 1.84s; 690.76 connections/user sec, bytes read 0
+1271 connections in 11 real seconds, 0 bytes read per connection
+Execution 46
+s_time: verify depth is 1
+1275 connections in 1.85s; 689.19 connections/user sec, bytes read 0
+1275 connections in 11 real seconds, 0 bytes read per connection
+Execution 47
+s_time: verify depth is 1
+1273 connections in 1.83s; 695.63 connections/user sec, bytes read 0
+1273 connections in 11 real seconds, 0 bytes read per connection
+Execution 48
+s_time: verify depth is 1
+1270 connections in 1.82s; 697.80 connections/user sec, bytes read 0
+1270 connections in 11 real seconds, 0 bytes read per connection
+Execution 49
+s_time: verify depth is 1
+1273 connections in 1.85s; 688.11 connections/user sec, bytes read 0
+1273 connections in 11 real seconds, 0 bytes read per connection
+Execution 50
+s_time: verify depth is 1
+1258 connections in 1.83s; 687.43 connections/user sec, bytes read 0
+1258 connections in 11 real seconds, 0 bytes read per connection

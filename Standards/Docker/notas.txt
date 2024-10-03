@@ -1,0 +1,7 @@
+
+
+Crear imagen docker
+-------------------
+docker build -t oqs-curlv331 .
+
+Ejecutar los scripts
