@@ -94,7 +94,7 @@ ax.set_xticks(index)
 ax.set_xticklabels(df_data['Algorithm'], fontsize=18, ha='center')
 
 # Añadir título y leyenda
-legend = ax.legend(fontsize=26, loc='best', bbox_to_anchor=(0.71, 0.98), title='KEM Algorithm')
+legend = ax.legend(fontsize=26, loc='best', title='KEM Algorithm')
 plt.setp(legend.get_title(), fontsize=26)
 
 # Añadir grid
