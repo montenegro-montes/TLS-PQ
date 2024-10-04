@@ -49,7 +49,7 @@ ax.set_xlabel('Signature Algorithm', fontsize=26)
 
 
 # Place the legend at the top of the plot
-ax.legend(fontsize=16, loc='best', ncol=2, title='KEM algorithm', title_fontsize=16)
+ax.legend(fontsize=16, loc='best', ncol=1, title='KEM algorithm', title_fontsize=16)
 
 # Make the numbers on the axes larger for better readability
 ax.tick_params(axis='both', which='major', labelsize=26)

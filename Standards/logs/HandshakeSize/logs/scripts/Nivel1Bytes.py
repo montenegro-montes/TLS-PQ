@@ -56,7 +56,7 @@ ax.grid(True, axis='y', linestyle='--', alpha=0.7)
 
 # Place the legend at the top of the plot
 #ax.legend(fontsize=12, loc='upper center', bbox_to_anchor=(0.5, 1.15), ncol=3)
-ax.legend(fontsize=16, loc='best', ncol=3, title='KEM algorithm', title_fontsize=16)
+ax.legend(fontsize=16, loc='best', ncol=1, title='KEM algorithm', title_fontsize=16)
 
 
 # Make the numbers on the axes larger for better readability
