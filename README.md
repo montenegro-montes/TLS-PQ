@@ -4,12 +4,16 @@ The project currently has three folders:
 
 * **Original**: This folder contains the original work called *Towards the Quantum-Safe Web*.
 
-*  **Standards**: This is a modification of the original work to substitute Kyber for ML-KEM and Dilithium for ML-DSA.
+* **Standards**: This is a modification of the original work to substitute Kyber for ML-KEM and Dilithium for ML-DSA.
 
 * **TC**: A delay and packet loss support has been added to the framework to simulate a real working scenario.
 
 Each folder has three subfolders:
 
 * **Docker**: The files needed to create the Docker image, as well as the scripts used to create a TLS client and server.
-* **Logs**: The logs obtained from the experiment and used to generate the graphs.
-* **Scripts**: The scripts used to launch the TLS clients and servers with the various traditional and post-quantum algorithms. It also includes Python programs to create the graphs.
+* **Data**: It contains the information necessary to create the graphs: 
+	- The logs obtained in the execution.
+	- The csv obtained when processing the logs.
+	- The images of the graphs obtained.
+	- The python scripts used to process the logs and make the graphs.
+* **Execution_Scripts**: The scripts used to launch the TLS clients and servers with the various traditional and post-quantum algorithms.
