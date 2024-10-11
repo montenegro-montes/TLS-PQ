@@ -1,9 +1,0 @@
-SIG_ALG;KEM_ALG;Read Bytes;Written Bytes
-secp384r1;P-384;1101;604
-secp384r1;mlkem768;2090;1683
-mldsa65;P-384;9174;574
-mldsa65;mlkem768;10165;1653
-sphincssha2192fsimple;P-384;72048;574
-sphincssha2192fsimple;mlkem768;73039;1653
-sphincssha2192ssimple;P-384;33102;574
-sphincssha2192ssimple;mlkem768;34093;1653
