@@ -1,0 +1,6 @@
+SIG_ALG,KEM_ALG,Read Bytes,Written Bytes
+secp384r1,P-384,1149,652
+secp384r1,x448,1106,611
+secp384r1,p384_mlkem768,2236,1828
+secp384r1,x448_mlkem768,2196,1787
+secp384r1,mlkem768,2138,1731

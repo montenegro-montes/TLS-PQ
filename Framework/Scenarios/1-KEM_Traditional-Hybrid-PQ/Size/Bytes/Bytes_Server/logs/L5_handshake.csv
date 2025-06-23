@@ -1,0 +1,4 @@
+SIG_ALG,KEM_ALG,Read Bytes,Written Bytes
+secp521r1,P-521,1296,688
+secp521r1,p521_mlkem1024,2863,2248
+secp521r1,mlkem1024,2730,2115
