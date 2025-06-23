@@ -1,0 +1,964 @@
+-----
+-----
+Certificate request self-signature ok
+subject=CN=localhost
+Running /opt/oqssa/bin/perftestHandshakeServer.sh with SIG_ALG=ed25519 and KEM_ALG=P-256
+
+Using default temp DH parameters
+ACCEPT
+Connecting to ::1
+SSL_connect:before SSL initialization
+CONNECTED(00000003)
+SSL_connect:SSLv3/TLS write client hello
+SSL_connect:SSLv3/TLS write client hello
+SSL_connect:SSLv3/TLS read server hello
+SSL_connect:TLSv1.3 read encrypted extensions
+depth=1 CN=oqstest CA
+verify return:1
+---
+Certificate chain
+ 0 s:CN=localhost
+   i:CN=oqstest CA
+   a:PKEY: ED25519, 256 (bit); sigalg: ED25519
+   v:NotBefore: Mar 16 15:01:20 2025 GMT; NotAfter: Mar 16 15:01:20 2026 GMT
+-----BEGIN CERTIFICATE-----
+MIIBLDCB36ADAgECAhRw+oHAimjRTscjBWW/qqnpWFqmKzAFBgMrZXAwFTETMBEG
+A1UEAwwKb3FzdGVzdCBDQTAeFw0yNTAzMTYxNTAxMjBaFw0yNjAzMTYxNTAxMjBa
+MBQxEjAQBgNVBAMMCWxvY2FsaG9zdDAqMAUGAytlcAMhAPOOKScpgfGXOIepj6g3
+7MPvqQZA1iG/SeIyFMtTmXPYo0IwQDAdBgNVHQ4EFgQUc+/sQ3UEuXYtEQAa4Abo
+jgJqqM8wHwYDVR0jBBgwFoAUS8FGRVMytpbTUYl24vYaodysvHowBQYDK2VwA0EA
+91IIOslUL991YYij+PBl78ZYPPCoof9e/nx3hjSVTVt5Lp2AzrpzwOz2xPTAipp9
+1Kc/k6L2Nzuc4eFx/7NODQ==
+-----END CERTIFICATE-----
+---
+Server certificate
+subject=CN=localhost
+issuer=CN=oqstest CA
+---
+No client certificate CA names sent
+Peer signature type: Ed25519
+Server Temp Key: ECDH, prime256v1, 256 bits
+---
+SSL handshake has read 701 bytes and written 590 bytes
+Verification: OK
+---
+New, TLSv1.3, Cipher is TLS_AES_256_GCM_SHA384
+Server public key is 256 bit
+This TLS version forbids renegotiation.
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+Early data was not sent
+Verify return code: 0 (ok)
+---
+---
+Post-Handshake New Session Ticket arrived:
+SSL-Session:
+    Protocol  : TLSv1.3
+    Cipher    : TLS_AES_256_GCM_SHA384
+    Session-ID: A7E049B889A8AB8240B873BD50B9D7655D44B59210FDD615465B7637115FDEDF
+    Session-ID-ctx: 
+    Resumption PSK: 84106D1B417AA667E7CC0747C6A17D7C8DFB584813A13BC9285B3C1F5A6F10042D604324B358880147028A99E0FD35C5
+    PSK identity: None
+    PSK identity hint: None
+    SRP username: None
+    TLS session ticket lifetime hint: 7200 (seconds)
+    TLS session ticket:
+    0000 - 7b f1 bc 02 02 1f fa f6-13 5a 39 77 b6 a3 08 9c   {........Z9w....
+    0010 - ed d6 3d c3 92 fc fe a5-38 40 58 a4 f3 e1 c1 4a   ..=.....8@X....J
+    0020 - ac f3 a3 3d a9 fb 7c 82-1f 84 3e fe 8c 9e 83 24   ...=..|...>....$
+    0030 - 25 95 db f4 84 c4 68 22-9e 01 a2 be 94 d6 78 c1   %.....h"......x.
+    0040 - fc 10 d6 f3 4e e0 ee 30-c8 61 eb a9 16 2a b5 76   ....N..0.a...*.v
+    0050 - 52 68 29 5a b4 30 ed 24-81 ff 50 08 78 3f b8 36   Rh)Z.0.$..P.x?.6
+    0060 - c4 81 a6 c6 d6 b2 f6 58-0c 9b c2 44 75 33 59 d4   .......X...Du3Y.
+    0070 - 49 64 7b 80 05 02 e9 54-86 c3 2d 8b 07 34 f6 55   Id{....T..-..4.U
+    0080 - 0d a5 e8 ad 75 a8 45 7d-da 94 bf e1 69 05 35 b7   ....u.E}....i.5.
+    0090 - 31 45 c4 22 65 71 90 12-c1 65 f2 18 cc d7 a6 82   1E."eq...e......
+    00a0 - 9a df 5b 0b 7b 09 1d 16-e8 75 22 f2 90 98 5a 47   ..[.{....u"...ZG
+    00b0 - 4e e3 e0 88 00 7f c7 a9-79 1d ae fa 16 f4 42 df   N.......y.....B.
+    00c0 - 3c dd 99 33 68 55 73 18-87 c8 88 37 ac e0 6d 4e   <..3hUs....7..mN
+
+    Start Time: 1742137281
+    Timeout   : 7200 (sec)
+    Verify return code: 0 (ok)
+    Extended master secret: no
+    Max Early Data: 0
+---
+read R BLOCK
+---
+Post-Handshake New Session Ticket arrived:
+SSL-Session:
+    Protocol  : TLSv1.3
+    Cipher    : TLS_AES_256_GCM_SHA384
+    Session-ID: B0403AAF7C0944DAEFE20FE7A343DDDEC5C038A5D2730060DB1E16AE6C980D2F
+    Session-ID-ctx: 
+    Resumption PSK: 125E9F8654AE048B0CB1C652418EFA774612990A97B29826E26669C90D818AF444E5824E0FFB4767D163B21FE0FEEA44
+    PSK identity: None
+    PSK identity hint: None
+    SRP username: None
+    TLS session ticket lifetime hint: 7200 (seconds)
+    TLS session ticket:
+    0000 - 7b f1 bc 02 02 1f fa f6-13 5a 39 77 b6 a3 08 9c   {........Z9w....
+    0010 - 8a 4e d3 1e a6 d8 4c be-a1 89 b5 01 06 d2 57 31   .N....L.......W1
+    0020 - 6f 52 da 78 97 63 a7 f7-b2 d0 17 c9 ac d1 8c dd   oR.x.c..........
+    0030 - 71 bb 0d c3 62 a3 c8 cb-c7 6c 07 c1 34 48 1d 59   q...b....l..4H.Y
+    0040 - d3 85 19 0b 38 2e a3 a8-18 fa fb 16 4e 3c 7b 95   ....8.......N<{.
+    0050 - 50 dc 7a e0 96 4c 47 a5-b9 e3 9e d0 e0 f2 aa c5   P.z..LG.........
+    0060 - 09 ab f5 f3 bf e6 91 70-be 62 21 35 24 7c 9a 5a   .......p.b!5$|.Z
+    0070 - b6 dc 08 51 7d 65 07 fa-88 7c c1 39 86 51 1f b7   ...Q}e...|.9.Q..
+    0080 - c7 f6 15 9f 72 88 85 aa-b6 24 33 34 9f c0 e1 1d   ....r....$34....
+    0090 - d6 4f 74 39 6b aa 40 d5-12 ff cf f5 e5 37 f6 a1   .Ot9k.@......7..
+    00a0 - c5 54 2a 7d e7 ac d1 57-04 3c 53 21 53 e7 1f 87   .T*}...W.<S!S...
+    00b0 - c8 02 f4 41 86 9c 82 8f-43 20 ee d1 67 32 cf 2d   ...A....C ..g2.-
+    00c0 - a4 20 3a cf 38 a0 b7 3a-b6 e9 21 fb a2 c2 63 9e   . :.8..:..!...c.
+
+    Start Time: 1742137281
+    Timeout   : 7200 (sec)
+    Verify return code: 0 (ok)
+    Extended master secret: no
+    Max Early Data: 0
+---
+read R BLOCK
+depth=0 CN=localhost
+verify return:1
+SSL_connect:SSLv3/TLS read server certificate
+SSL_connect:TLSv1.3 read server certificate verify
+SSL_connect:SSLv3/TLS read finished
+SSL_connect:SSLv3/TLS write change cipher spec
+SSL_connect:SSLv3/TLS write finished
+SSL_connect:SSL negotiation finished successfully
+SSL_connect:SSL negotiation finished successfully
+SSL_connect:SSLv3/TLS read server session ticket
+SSL_connect:SSL negotiation finished successfully
+SSL_connect:SSL negotiation finished successfully
+SSL_connect:SSLv3/TLS read server session ticket
+DONE
+SSL3 alert write:warning:close notify
+-----
+-----
+Certificate request self-signature ok
+subject=CN=localhost
+Running /opt/oqssa/bin/perftestHandshakeServer.sh with SIG_ALG=ed25519 and KEM_ALG=X25519
+
+Using default temp DH parameters
+ACCEPT
+Connecting to ::1
+SSL_connect:before SSL initialization
+SSL_connect:SSLv3/TLS write client hello
+CONNECTED(00000003)
+SSL_connect:SSLv3/TLS write client hello
+SSL_connect:SSLv3/TLS read server hello
+SSL_connect:TLSv1.3 read encrypted extensions
+depth=1 CN=oqstest CA
+verify return:1
+depth=0 CN=localhost
+verify return:1
+SSL_connect:SSLv3/TLS read server certificate
+SSL_connect:TLSv1.3 read server certificate verify
+SSL_connect:SSLv3/TLS read finished
+SSL_connect:SSLv3/TLS write change cipher spec
+---
+Certificate chain
+ 0 s:CN=localhost
+   i:CN=oqstest CA
+   a:PKEY: ED25519, 256 (bit); sigalg: ED25519
+   v:NotBefore: Mar 16 15:01:24 2025 GMT; NotAfter: Mar 16 15:01:24 2026 GMT
+-----BEGIN CERTIFICATE-----
+MIIBLDCB36ADAgECAhRU0yBbQs/AW2YnLI2HQepm8i1sEjAFBgMrZXAwFTETMBEG
+A1UEAwwKb3FzdGVzdCBDQTAeFw0yNTAzMTYxNTAxMjRaFw0yNjAzMTYxNTAxMjRa
+MBQxEjAQBgNVBAMMCWxvY2FsaG9zdDAqMAUGAytlcAMhAOaKVB3o+yP8VWdyad4e
+6DkrABtJWx6tnSJAlxqhF/Gvo0IwQDAdBgNVHQ4EFgQU23DbVSTvliMZ3FT7Gw5A
+upaJGU0wHwYDVR0jBBgwFoAU2gMwm7uMfkdoCQnqrzYf3dMaArwwBQYDK2VwA0EA
+l88RpPL+CXfsRUcCpWc8rv2lFbalxC7LU+yRvfP2hTnpCTwCDRsKeV/wnDe7lhVv
+z1Dtizo4poBtDTqao0C3BQ==
+-----END CERTIFICATE-----
+---
+Server certificate
+subject=CN=localhost
+issuer=CN=oqstest CA
+---
+No client certificate CA names sent
+Peer signature type: Ed25519
+Server Temp Key: X25519, 253 bits
+---
+SSL handshake has read 668 bytes and written 557 bytes
+Verification: OK
+---
+New, TLSv1.3, Cipher is TLS_AES_256_GCM_SHA384
+Server public key is 256 bit
+This TLS version forbids renegotiation.
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+Early data was not sent
+Verify return code: 0 (ok)
+---
+SSL_connect:SSLv3/TLS write finished
+SSL_connect:SSL negotiation finished successfully
+SSL_connect:SSL negotiation finished successfully
+SSL_connect:SSLv3/TLS read server session ticket
+SSL_connect:SSL negotiation finished successfully
+---
+Post-Handshake New Session Ticket arrived:
+SSL-Session:
+    Protocol  : TLSv1.3
+    Cipher    : TLS_AES_256_GCM_SHA384
+    Session-ID: 3182DB7D16175B4059050561390DCD430281508924B3F2AA228E7E294F31997D
+    Session-ID-ctx: 
+    Resumption PSK: 3FFD122CBB9165BB1C9AAD5E9099AAB1E09CAE25BF7CD30CF468E0F24659F8E71E6C9948EAA31B8DF453976486C2E120
+    PSK identity: None
+    PSK identity hint: None
+    SRP username: None
+    TLS session ticket lifetime hint: 7200 (seconds)
+    TLS session ticket:
+    0000 - d2 ef ef 8c 5e 7a ed 51-88 b0 d4 8a bd 30 8f 7a   ....^z.Q.....0.z
+    0010 - 07 a7 54 cb 40 5c 5f 7b-dc c4 34 e8 4b 80 7b 23   ..T.@\_{..4.K.{#
+    0020 - 76 d4 e1 cc ad 13 a4 3f-76 bc 68 ef 2d e3 be 97   v......?v.h.-...
+    0030 - 4c e3 9b a5 58 38 f8 7d-d1 61 af 3e 2b 51 08 bc   L...X8.}.a.>+Q..
+    0040 - 52 a5 e5 3f 93 b7 05 2e-23 29 63 d1 5b a6 01 30   R..?....#)c.[..0
+    0050 - ce 17 54 61 a6 5c d0 95-cf e0 f9 f2 2c 04 52 4d   ..Ta.\......,.RM
+    0060 - fd f7 91 b2 7f 1c bc 84-2d d6 e9 3a 23 cd 56 b6   ........-..:#.V.
+    0070 - b6 e2 77 a8 d3 b6 19 59-a7 07 e5 4f 39 77 05 a9   ..w....Y...O9w..
+    0080 - af 22 d7 8f f7 a3 ca e5-86 de 4a d0 f8 d1 ce 91   ."........J.....
+    0090 - 71 81 ec 88 c3 d9 6a 56-d9 af 69 1b 49 bb a9 69   q.....jV..i.I..i
+    00a0 - 58 61 6e b3 50 fd b4 d1-c0 aa 22 ef 94 bf a6 f3   Xan.P.....".....
+    00b0 - db 94 71 9a d0 3b b5 a1-61 55 76 b1 0c 22 5d a4   ..q..;..aUv.."].
+    00c0 - 0c 08 98 dc 6d 07 d1 7b-f5 70 7c 81 5d 18 9e 57   ....m..{.p|.]..W
+
+    Start Time: 1742137285
+    Timeout   : 7200 (sec)
+    Verify return code: 0 (ok)
+    Extended master secret: no
+    Max Early Data: 0
+---
+read R BLOCK
+---
+Post-Handshake New Session Ticket arrived:
+SSL-Session:
+    Protocol  : TLSv1.3
+    Cipher    : TLS_AES_256_GCM_SHA384
+    Session-ID: D31876FEAE1919AD884C2EE4D323A2CBA3B5350446D46267C458E10AE331B76C
+    Session-ID-ctx: 
+    Resumption PSK: 7EE2DEAA2AF005DC4942EF58D85CF3A6329E35D58BBE309D3CD44DF57AC3A0205A0B94B02A80F947CB9831D895190581
+    PSK identity: None
+    PSK identity hint: None
+    SRP username: None
+    TLS session ticket lifetime hint: 7200 (seconds)
+    TLS session ticket:
+    0000 - d2 ef ef 8c 5e 7a ed 51-88 b0 d4 8a bd 30 8f 7a   ....^z.Q.....0.z
+    0010 - 6f de b7 c7 a2 56 f9 4c-1b 1a 77 c9 b3 90 b4 30   o....V.L..w....0
+    0020 - 99 14 26 aa ac bf 93 4b-b4 99 d5 c2 56 00 be 47   ..&....K....V..G
+    0030 - 2a 1b 9a e3 4c 39 d5 48-7d 38 fd 5a bb 67 05 07   *...L9.H}8.Z.g..
+    0040 - 03 91 21 79 72 05 3a 9c-33 53 63 37 2d 94 4a c3   ..!yr.:.3Sc7-.J.
+    0050 - 2a 52 92 2d 9a c5 af 13-54 ec 8e 70 44 1b 47 4b   *R.-....T..pD.GK
+    0060 - b7 79 52 86 70 42 29 80-27 86 f4 70 79 45 17 cd   .yR.pB).'..pyE..
+    0070 - d1 91 f0 1e 7f 19 81 4a-42 cf 20 96 c1 60 73 47   .......JB. ..`sG
+    0080 - 22 05 40 f4 28 76 e0 a4-50 9e b9 80 10 d7 81 f8   ".@.(v..P.......
+    0090 - b4 9b e5 e1 66 af 2b aa-27 30 96 32 ad 6c eb ef   ....f.+.'0.2.l..
+    00a0 - 5a 2e 63 21 7d 1f 74 e6-b8 a3 d3 5f cb c6 65 b1   Z.c!}.t...._..e.
+    00b0 - e1 9e 4d 87 ad 08 6c c4-9d 0d 1e 9e a4 d5 ff 0b   ..M...l.........
+    00c0 - 11 e6 e0 08 c1 a7 83 7f-98 10 de 49 58 de ec ff   ...........IX...
+HTTP/1.0 200 ok
+Content-type: text/html
+
+<HTML><BODY BGCOLOR="#ffffff">
+<pre>
+
+s_server -cert /opt/test/server.crt -key /opt/test/server.key -groups X25519 -www -tls1_3 -accept localhost:4433 
+This TLS version forbids renegotiation.
+Ciphers supported in s_server binary
+TLSv1.3    :TLS_AES_256_GCM_SHA384    TLSv1.3    :TLS_CHACHA20_POLY1305_SHA256 
+TLSv1.3    :TLS_AES_128_GCM_SHA256    TLSv1.2    :ECDHE-ECDSA-AES256-GCM-SHA384 
+TLSv1.2    :ECDHE-RSA-AES256-GCM-SHA384 TLSv1.2    :DHE-RSA-AES256-GCM-SHA384 
+TLSv1.2    :ECDHE-ECDSA-CHACHA20-POLY1305 TLSv1.2    :ECDHE-RSA-CHACHA20-POLY1305 
+TLSv1.2    :DHE-RSA-CHACHA20-POLY1305 TLSv1.2    :ECDHE-ECDSA-AES128-GCM-SHA256 
+TLSv1.2    :ECDHE-RSA-AES128-GCM-SHA256 TLSv1.2    :DHE-RSA-AES128-GCM-SHA256 
+TLSv1.2    :ECDHE-ECDSA-AES256-SHA384 TLSv1.2    :ECDHE-RSA-AES256-SHA384   
+TLSv1.2    :DHE-RSA-AES256-SHA256     TLSv1.2    :ECDHE-ECDSA-AES128-SHA256 
+TLSv1.2    :ECDHE-RSA-AES128-SHA256   TLSv1.2    :DHE-RSA-AES128-SHA256     
+TLSv1.0    :ECDHE-ECDSA-AES256-SHA    TLSv1.0    :ECDHE-RSA-AES256-SHA      
+SSLv3      :DHE-RSA-AES256-SHA        TLSv1.0    :ECDHE-ECDSA-AES128-SHA    
+TLSv1.0    :ECDHE-RSA-AES128-SHA      SSLv3      :DHE-RSA-AES128-SHA        
+TLSv1.2    :RSA-PSK-AES256-GCM-SHA384 TLSv1.2    :DHE-PSK-AES256-GCM-SHA384 
+TLSv1.2    :RSA-PSK-CHACHA20-POLY1305 TLSv1.2    :DHE-PSK-CHACHA20-POLY1305 
+TLSv1.2    :ECDHE-PSK-CHACHA20-POLY1305 TLSv1.2    :AES256-GCM-SHA384         
+TLSv1.2    :PSK-AES256-GCM-SHA384     TLSv1.2    :PSK-CHACHA20-POLY1305     
+TLSv1.2    :RSA-PSK-AES128-GCM-SHA256 TLSv1.2    :DHE-PSK-AES128-GCM-SHA256 
+TLSv1.2    :AES128-GCM-SHA256         TLSv1.2    :PSK-AES128-GCM-SHA256     
+TLSv1.2    :AES256-SHA256             TLSv1.2    :AES128-SHA256             
+TLSv1.0    :ECDHE-PSK-AES256-CBC-SHA384 TLSv1.0    :ECDHE-PSK-AES256-CBC-SHA  
+SSLv3      :SRP-RSA-AES-256-CBC-SHA   SSLv3      :SRP-AES-256-CBC-SHA       
+TLSv1.0    :RSA-PSK-AES256-CBC-SHA384 TLSv1.0    :DHE-PSK-AES256-CBC-SHA384 
+SSLv3      :RSA-PSK-AES256-CBC-SHA    SSLv3      :DHE-PSK-AES256-CBC-SHA    
+SSLv3      :AES256-SHA                TLSv1.0    :PSK-AES256-CBC-SHA384     
+SSLv3      :PSK-AES256-CBC-SHA        TLSv1.0    :ECDHE-PSK-AES128-CBC-SHA256 
+TLSv1.0    :ECDHE-PSK-AES128-CBC-SHA  SSLv3      :SRP-RSA-AES-128-CBC-SHA   
+SSLv3      :SRP-AES-128-CBC-SHA       TLSv1.0    :RSA-PSK-AES128-CBC-SHA256 
+TLSv1.0    :DHE-PSK-AES128-CBC-SHA256 SSLv3      :RSA-PSK-AES128-CBC-SHA    
+SSLv3      :DHE-PSK-AES128-CBC-SHA    SSLv3      :AES128-SHA                
+TLSv1.0    :PSK-AES128-CBC-SHA256     SSLv3      :PSK-AES128-CBC-SHA        
+---
+Ciphers common between both SSL end points:
+TLS_AES_256_GCM_SHA384     TLS_CHACHA20_POLY1305_SHA256 TLS_AES_128_GCM_SHA256    
+ECDHE-ECDSA-AES256-GCM-SHA384 ECDHE-RSA-AES256-GCM-SHA384 DHE-RSA-AES256-GCM-SHA384 
+ECDHE-ECDSA-CHACHA20-POLY1305 ECDHE-RSA-CHACHA20-POLY1305 DHE-RSA-CHACHA20-POLY1305 
+ECDHE-ECDSA-AES128-GCM-SHA256 ECDHE-RSA-AES128-GCM-SHA256 DHE-RSA-AES128-GCM-SHA256 
+ECDHE-ECDSA-AES256-SHA384  ECDHE-RSA-AES256-SHA384    DHE-RSA-AES256-SHA256     
+ECDHE-ECDSA-AES128-SHA256  ECDHE-RSA-AES128-SHA256    DHE-RSA-AES128-SHA256     
+ECDHE-ECDSA-AES256-SHA     ECDHE-RSA-AES256-SHA       DHE-RSA-AES256-SHA        
+ECDHE-ECDSA-AES128-SHA     ECDHE-RSA-AES128-SHA       DHE-RSA-AES128-SHA        
+AES256-GCM-SHA384          AES128-GCM-SHA256          AES256-SHA256             
+AES128-SHA256              AES256-SHA                 AES128-SHA
+Signature Algorithms: ECDSA+SHA256:ECDSA+SHA384:ECDSA+SHA512:Ed25519:Ed448:ECDSA+SHA256:ECDSA+SHA384:ECDSA+SHA512:RSA-PSS+SHA256:RSA-PSS+SHA384:RSA-PSS+SHA512:RSA-PSS+SHA256:RSA-PSS+SHA384:RSA-PSS+SHA512:RSA+SHA256:RSA+SHA384:RSA+SHA512:ECDSA+SHA224:RSA+SHA224:DSA+SHA224:DSA+SHA256:DSA+SHA384:DSA+SHA512:dilithium2:p256_dilithium2:rsa3072_dilithium2:dilithium3:p384_dilithium3:dilithium5:p521_dilithium5:mldsa44:p256_mldsa44:rsa3072_mldsa44:mldsa44_pss2048:mldsa44_rsa2048:mldsa44_ed25519:mldsa44_p256:mldsa44_bp256:mldsa65:p384_mldsa65:mldsa65_pss3072:mldsa65_rsa3072:mldsa65_p256:mldsa65_bp256:mldsa65_ed25519:mldsa87:p521_mldsa87:mldsa87_p384:mldsa87_bp384:mldsa87_ed448:falcon512:p256_falcon512:rsa3072_falcon512:falconpadded512:p256_falconpadded512:rsa3072_falconpadded512:falcon1024:p521_falcon1024:falconpadded1024:p521_falconpadded1024:sphincssha2128fsimple:p256_sphincssha2128fsimple:rsa3072_sphincssha2128fsimple:sphincssha2128ssimple:p256_sphincssha2128ssimple:rsa3072_sphincssha2128ssimple:sphincssha2192fsimple:p384_sphincssha2192fsimple:sphincssha2192ssimple:p384_sphincssha2192ssimple:sphincssha2256fsimple:p521_sphincssha2256fsimple:sphincssha2256ssimple:p521_sphincssha2256ssimple:sphincsshake128fsimple:p256_sphincsshake128fsimple:rsa3072_sphincsshake128fsimple:sphincsshake128ssimple:p256_sphincsshake128ssimple:rsa3072_sphincsshake128ssimple:sphincsshake192fsimple:p384_sphincsshake192fsimple:sphincsshake192ssimple:p384_sphincsshake192ssimple:sphincsshake256fsimple:p521_sphincsshake256fsimple:sphincsshake256ssimple:p521_sphincsshake256ssimple:mayo1:p256_mayo1:mayo2:p256_mayo2:mayo3:p384_mayo3:mayo5:p521_mayo5:CROSSrsdp128balanced:CROSSrsdp128fast:CROSSrsdp128small:CROSSrsdp192balanced:CROSSrsdp192fast:CROSSrsdp192small:CROSSrsdp256small:CROSSrsdpg128balanced:CROSSrsdpg128fast:CROSSrsdpg128small:CROSSrsdpg192balanced:CROSSrsdpg192fast:CROSSrsdpg192small:CROSSrsdpg256balanced:CROSSrsdpg256fast:CROSSrsdpg256small
+Shared Signature Algorithms: ECDSA+SHA256:ECDSA+SHA384:ECDSA+SHA512:Ed25519:Ed448:ECDSA+SHA256:ECDSA+SHA384:ECDSA+SHA512:RSA-PSS+SHA256:RSA-PSS+SHA384:RSA-PSS+SHA512:RSA-PSS+SHA256:RSA-PSS+SHA384:RSA-PSS+SHA512:RSA+SHA256:RSA+SHA384:RSA+SHA512:ECDSA+SHA224:RSA+SHA224:dilithium2:p256_dilithium2:rsa3072_dilithium2:dilithium3:p384_dilithium3:dilithium5:p521_dilithium5:mldsa44:p256_mldsa44:rsa3072_mldsa44:mldsa44_pss2048:mldsa44_rsa2048:mldsa44_ed25519:mldsa44_p256:mldsa44_bp256:mldsa65:p384_mldsa65:mldsa65_pss3072:mldsa65_rsa3072:mldsa65_p256:mldsa65_bp256:mldsa65_ed25519:mldsa87:p521_mldsa87:mldsa87_p384:mldsa87_bp384:mldsa87_ed448:falcon512:p256_falcon512:rsa3072_falcon512:falconpadded512:p256_falconpadded512:rsa3072_falconpadded512:falcon1024:p521_falcon1024:falconpadded1024:p521_falconpadded1024:sphincssha2128fsimple:p256_sphincssha2128fsimple:rsa3072_sphincssha2128fsimple:sphincssha2128ssimple:p256_sphincssha2128ssimple:rsa3072_sphincssha2128ssimple:sphincssha2192fsimple:p384_sphincssha2192fsimple:sphincssha2192ssimple:p384_sphincssha2192ssimple:sphincssha2256fsimple:p521_sphincssha2256fsimple:sphincssha2256ssimple:p521_sphincssha2256ssimple:sphincsshake128fsimple:p256_sphincsshake128fsimple:rsa3072_sphincsshake128fsimple:sphincsshake128ssimple:p256_sphincsshake128ssimple:rsa3072_sphincsshake128ssimple:sphincsshake192fsimple:p384_sphincsshake192fsimple:sphincsshake192ssimple:p384_sphincsshake192ssimple:sphincsshake256fsimple:p521_sphincsshake256fsimple:sphincsshake256ssimple:p521_sphincsshake256ssimple:mayo1:p256_mayo1:mayo2:p256_mayo2:mayo3:p384_mayo3:mayo5:p521_mayo5:CROSSrsdp128balanced:CROSSrsdp128fast:CROSSrsdp128small:CROSSrsdp192balanced:CROSSrsdp192fast:CROSSrsdp192small:CROSSrsdp256small:CROSSrsdpg128balanced:CROSSrsdpg128fast:CROSSrsdpg128small:CROSSrsdpg192balanced:CROSSrsdpg192fast:CROSSrsdpg192small:CROSSrsdpg256balanced:CROSSrsdpg256fast:CROSSrsdpg256small
+Supported groups: x25519
+Shared groups: x25519
+---
+New, TLSv1.3, Cipher is TLS_AES_256_GCM_SHA384
+SSL-Session:
+    Protocol  : TLSv1.3
+    Cipher    : TLS_AES_256_GCM_SHA384
+    Session-ID: 172ED5090ABFB79F11D281468B81D0DCD1E5D2ACDD7C1B0CF264A5925198F0BD
+    Session-ID-ctx: 01000000
+    Resumption PSK: 7EE2DEAA2AF005DC4942EF58D85CF3A6329E35D58BBE309D3CD44DF57AC3A0205A0B94B02A80F947CB9831D895190581
+    PSK identity: None
+    PSK identity hint: None
+    SRP username: None
+    Start Time: 1742137285
+    Timeout   : 7200 (sec)
+    Verify return code: 0 (ok)
+    Extended master secret: no
+    Max Early Data: 0
+---
+   0 items in the session cache
+   0 client connects (SSL_connect())
+   0 client renegotiates (SSL_connect())
+   0 client connects that finished
+   1 server accepts (SSL_accept())
+   0 server renegotiates (SSL_accept())
+   1 server accepts that finished
+   0 session cache hits
+   0 session cache misses
+   0 session cache timeouts
+   0 callback cache hits
+   0 cache full overflows (128 allowed)
+---
+no client certificate available
+</pre></BODY></HTML>
+
+SSL_connect:SSL negotiation finished successfully
+SSL_connect:SSLv3/TLS read server session ticket
+SSL3 alert read:warning:close notify
+SSL3 alert write:warning:close notify
+
+    Start Time: 1742137285
+    Timeout   : 7200 (sec)
+    Verify return code: 0 (ok)
+    Extended master secret: no
+    Max Early Data: 0
+---
+read R BLOCK
+closed
+-----
+-----
+Certificate request self-signature ok
+subject=CN=localhost
+Running /opt/oqssa/bin/perftestHandshakeServer.sh with SIG_ALG=ed25519 and KEM_ALG=p256_mlkem512
+
+Using default temp DH parameters
+ACCEPT
+Connecting to ::1
+SSL_connect:before SSL initialization
+CONNECTED(00000003)
+SSL_connect:SSLv3/TLS write client hello
+SSL_connect:SSLv3/TLS write client hello
+SSL_connect:SSLv3/TLS read server hello
+SSL_connect:TLSv1.3 read encrypted extensions
+depth=1 CN=oqstest CA
+verify return:1
+depth=0 CN=localhost
+verify return:1
+SSL_connect:SSLv3/TLS read server certificate
+SSL_connect:TLSv1.3 read server certificate verify
+SSL_connect:SSLv3/TLS read finished
+SSL_connect:SSLv3/TLS write change cipher spec
+SSL_connect:SSLv3/TLS write finished
+DONE
+SSL3 alert write:warning:close notify
+---
+Certificate chain
+ 0 s:CN=localhost
+   i:CN=oqstest CA
+   a:PKEY: ED25519, 256 (bit); sigalg: ED25519
+   v:NotBefore: Mar 16 15:01:14 2025 GMT; NotAfter: Mar 16 15:01:14 2026 GMT
+-----BEGIN CERTIFICATE-----
+MIIBLDCB36ADAgECAhQV9cL2W7eMmcJxC1ytwJ6Jm1wzrjAFBgMrZXAwFTETMBEG
+A1UEAwwKb3FzdGVzdCBDQTAeFw0yNTAzMTYxNTAxMTRaFw0yNjAzMTYxNTAxMTRa
+MBQxEjAQBgNVBAMMCWxvY2FsaG9zdDAqMAUGAytlcAMhANzr9VxhIRdATFrTEXVY
+lHWnlLwBGD6twA/tO5GqRcwXo0IwQDAdBgNVHQ4EFgQUVpWjptEE6MoglKB7K9nA
+USrvamkwHwYDVR0jBBgwFoAUD6wzpiSNL8PRuAtgQcxbb77AW3gwBQYDK2VwA0EA
+MnU4hYk5Lnh1RGgntBJrDh2B/23mQ+Wz8OGE0gyIbDjCjUuaeF6BE5UlduLVis98
+IiA5hhtej1bbbwRQ3ngaCw==
+-----END CERTIFICATE-----
+---
+Server certificate
+subject=CN=localhost
+issuer=CN=oqstest CA
+---
+No client certificate CA names sent
+Peer signature type: Ed25519
+---
+SSL handshake has read 1469 bytes and written 1382 bytes
+Verification: OK
+---
+New, TLSv1.3, Cipher is TLS_AES_256_GCM_SHA384
+Server public key is 256 bit
+This TLS version forbids renegotiation.
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+Early data was not sent
+Verify return code: 0 (ok)
+---
+-----
+-----
+Certificate request self-signature ok
+subject=CN=localhost
+Running /opt/oqssa/bin/perftestHandshakeServer.sh with SIG_ALG=ed25519 and KEM_ALG=x25519_mlkem512
+
+Using default temp DH parameters
+ACCEPT
+Connecting to ::1
+SSL_connect:before SSL initialization
+SSL_connect:SSLv3/TLS write client hello
+CONNECTED(00000003)
+SSL_connect:SSLv3/TLS write client hello
+SSL_connect:SSLv3/TLS read server hello
+SSL_connect:TLSv1.3 read encrypted extensions
+depth=1 CN=oqstest CA
+verify return:1
+depth=0 CN=localhost
+verify return:1
+SSL_connect:SSLv3/TLS read server certificate
+SSL_connect:TLSv1.3 read server certificate verify
+SSL_connect:SSLv3/TLS read finished
+SSL_connect:SSLv3/TLS write change cipher spec
+SSL_connect:SSLv3/TLS write finished
+SSL_connect:SSL negotiation finished successfully
+SSL_connect:SSL negotiation finished successfully
+SSL_connect:SSLv3/TLS read server session ticket
+---
+Certificate chain
+ 0 s:CN=localhost
+   i:CN=oqstest CA
+   a:PKEY: ED25519, 256 (bit); sigalg: ED25519
+   v:NotBefore: Mar 16 15:01:26 2025 GMT; NotAfter: Mar 16 15:01:26 2026 GMT
+-----BEGIN CERTIFICATE-----
+MIIBLDCB36ADAgECAhRtzlmWjbF/CjUYVPNGc7DL4/eqDjAFBgMrZXAwFTETMBEG
+A1UEAwwKb3FzdGVzdCBDQTAeFw0yNTAzMTYxNTAxMjZaFw0yNjAzMTYxNTAxMjZa
+MBQxEjAQBgNVBAMMCWxvY2FsaG9zdDAqMAUGAytlcAMhAN/78slZxqFhc0pKmNmT
+suGS0pfB068Uq9u6DqzdFFDAo0IwQDAdBgNVHQ4EFgQUmBiwx0s6P61yvh63a7w4
+lX111DwwHwYDVR0jBBgwFoAUSHgD5Ynt5wqL5zHFQ+sQxYd/MzIwBQYDK2VwA0EA
+GThfOUIWO5hoyF3oiR3qbjzpALiOPl3kj5B2bMantAJppCaAyygQOJMULuT86Csa
+ancTTZavv5zaTwJM0NS8BA==
+-----END CERTIFICATE-----
+---
+Server certificate
+subject=CN=localhost
+issuer=CN=oqstest CA
+---
+No client certificate CA names sent
+Peer signature type: Ed25519
+---
+SSL handshake has read 1436 bytes and written 1349 bytes
+Verification: OK
+---
+New, TLSv1.3, Cipher is TLS_AES_256_GCM_SHA384
+Server public key is 256 bit
+This TLS version forbids renegotiation.
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+Early data was not sent
+Verify return code: 0 (ok)
+---
+---
+Post-Handshake New Session Ticket arrived:
+SSL-Session:
+    Protocol  : TLSv1.3
+    Cipher    : TLS_AES_256_GCM_SHA384
+    Session-ID: 6B943DA8B32ABCD22AF2CCD8E511BA0B27F32840261ACE3776C6A58A09648909
+    Session-ID-ctx: 
+    Resumption PSK: A4C35C7B8EE6F47ED305EF6BAD631101119B8908A89BBC4EE13DCFC08F70ADB63AB538467D98E8159F91CA8C3BB2D6B6
+    PSK identity: None
+    PSK identity hint: None
+    SRP username: None
+    TLS session ticket lifetime hint: 7200 (seconds)
+    TLS session ticket:
+    0000 - c1 b2 05 c5 e6 f9 e6 60-a6 82 b2 ea 46 00 3e c1   .......`....F.>.
+    0010 - 2c 6c ab e5 a5 3d 9e 02-36 cd e2 c2 84 6e a9 9a   ,l...=..6....n..
+    0020 - 3c 8a 5c df 24 15 f2 0d-a7 2f 56 86 a6 94 50 d8   <.\.$..../V...P.
+    0030 - 9a 89 4d c6 d7 7d 2f 44-fe c6 9c 1d 7f ef fd e4   ..M..}/D........
+    0040 - 48 45 9e c2 62 f2 a3 c7-f9 77 0a 7e 00 58 41 5a   HE..b....w.~.XAZ
+    0050 - 96 0d dc 40 4c 1c 06 f4-c9 59 96 3a 6f 06 3c a0   ...@L....Y.:o.<.
+    0060 - 1f 4d 1d a4 95 1f 83 22-d7 d7 7d 6b a1 4a c7 a6   .M....."..}k.J..
+    0070 - f3 5f 29 06 1c 6e 3e 4e-d5 42 82 4d 3a 17 8e 1d   ._)..n>N.B.M:...
+    0080 - b6 5f bb c9 3d d3 8b 06-dc da 3d 41 e5 07 ad 3a   ._..=.....=A...:
+    0090 - 46 71 5c f8 8b 99 77 68-b3 52 2c 41 d6 c1 9e 0f   Fq\...wh.R,A....
+    00a0 - bb a2 cc d9 3c 64 4e fc-f0 ec ef c4 ca c1 68 d0   ....<dN.......h.
+    00b0 - d0 94 ce cb 0c 79 cb 80-51 67 30 b1 c2 5c 28 65   .....y..Qg0..\(e
+    00c0 - 75 69 92 74 66 82 45 7a-ac 2b e0 93 ef 99 d8 77   ui.tf.Ez.+.....w
+
+    Start Time: 1742137287
+    Timeout   : 7200 (sec)
+    Verify return code: 0 (ok)
+    Extended master secret: no
+    Max Early Data: 0
+---
+read R BLOCK
+---
+Post-Handshake New Session Ticket arrived:
+SSL-Session:
+    Protocol  : TLSv1.3
+    Cipher    : TLS_AES_256_GCM_SHA384
+    Session-ID: 2BD2C4AC9512CB8E604AD24F47C035CAEB8CF0C6C4E7E30DF7B10765EEC9670A
+    Session-ID-ctx: 
+    Resumption PSK: BBFE951E3176CD17712AC464150FD50920E859899A7E3E65232381A588CE50F1E3CF73746DC9DFDA3F387FD3994E0C25
+    PSK identity: None
+    PSK identity hint: None
+    SRP username: None
+    TLS session ticket lifetime hint: 7200 (seconds)
+    TLS session ticket:
+    0000 - c1 b2 05 c5 e6 f9 e6 60-a6 82 b2 ea 46 00 3e c1   .......`....F.>.
+    0010 - 86 df 78 e2 58 b0 52 47-4a 8a 89 4c 0b 5d e8 c0   ..x.X.RGJ..L.]..
+    0020 - c2 e3 95 1c 5a 56 a2 7b-6c 01 31 c5 54 35 39 e2   ....ZV.{l.1.T59.
+    0030 - 03 d0 12 d3 9c a8 f1 57-05 01 22 02 c6 4f ee e8   .......W.."..O..
+    0040 - ff 8a ca 2d 0c 55 f0 16-42 d7 70 39 1b 66 ed a2   ...-.U..B.p9.f..
+    0050 - 82 af fb 95 90 2d 14 06-0a 72 a3 f8 7e 05 d7 ba   .....-...r..~...
+    0060 - c1 d5 1c bc 05 ca 76 28-2e 09 71 00 2d c2 c5 85   ......v(..q.-...
+    0070 - 2f 9b c8 d8 5e 9a e9 bc-38 2d 75 6a ff 15 d1 fc   /...^...8-uj....
+    0080 - bb e0 33 84 dd e5 14 63-31 54 f3 31 ce ed 1d 1d   ..3....c1T.1....
+    0090 - 24 d1 cc 5d 8d f3 67 cc-24 9e aa 12 24 2b 97 75   $..]..g.$...$+.u
+    00a0 - 1f df 5d c1 b5 f8 c8 20-21 db 74 9d 9c 44 37 e6   ..].... !.t..D7.
+    00b0 - f9 04 b1 67 c5 db 67 c0-14 32 e1 eb 8f c1 bf d1   ...g..g..2......
+    00c0 - 50 a9 1b 28 1f 26 7f db-66 ef 8a 47 45 0d c1 10   P..(.&..f..GE...
+SSL_connect:SSL negotiation finished successfully
+SSL_connect:SSL negotiation finished successfully
+SSL_connect:SSLv3/TLS read server session ticket
+DONE
+SSL3 alert write:warning:close notify
+
+    Start Time: 1742137287
+    Timeout   : 7200 (sec)
+    Verify return code: 0 (ok)
+    Extended master secret: no
+    Max Early Data: 0
+---
+read R BLOCK
+-----
+-----
+Certificate request self-signature ok
+subject=CN=localhost
+Running /opt/oqssa/bin/perftestHandshakeServer.sh with SIG_ALG=ed25519 and KEM_ALG=mlkem512
+
+Using default temp DH parameters
+ACCEPT
+CONNECTED(00000003)
+Connecting to ::1
+SSL_connect:before SSL initialization
+SSL_connect:SSLv3/TLS write client hello
+SSL_connect:SSLv3/TLS write client hello
+SSL_connect:SSLv3/TLS read server hello
+SSL_connect:TLSv1.3 read encrypted extensions
+depth=1 CN=oqstest CA
+verify return:1
+depth=0 CN=localhost
+verify return:1
+SSL_connect:SSLv3/TLS read server certificate
+SSL_connect:TLSv1.3 read server certificate verify
+SSL_connect:SSLv3/TLS read finished
+SSL_connect:SSLv3/TLS write change cipher spec
+SSL_connect:SSLv3/TLS write finished
+DONE
+SSL3 alert write:warning:close notify
+---
+Certificate chain
+ 0 s:CN=localhost
+   i:CN=oqstest CA
+   a:PKEY: ED25519, 256 (bit); sigalg: ED25519
+   v:NotBefore: Mar 16 15:01:12 2025 GMT; NotAfter: Mar 16 15:01:12 2026 GMT
+-----BEGIN CERTIFICATE-----
+MIIBLDCB36ADAgECAhR52GV0CaXXquVS5GdePUg9OZme2DAFBgMrZXAwFTETMBEG
+A1UEAwwKb3FzdGVzdCBDQTAeFw0yNTAzMTYxNTAxMTJaFw0yNjAzMTYxNTAxMTJa
+MBQxEjAQBgNVBAMMCWxvY2FsaG9zdDAqMAUGAytlcAMhACvuXPq2zTDkhLwJ8NwM
+pWPjrRrMJo4LwdbBvZCf4bmio0IwQDAdBgNVHQ4EFgQUCXttmy1bLV5Gnmwwxpqv
+1IQYJ+owHwYDVR0jBBgwFoAUsx+BboDpnm/vc3zdo2kO2z9knvswBQYDK2VwA0EA
+WtgUwtdxsVuX+x+gdByTJAzsuFG0VoaAe3fnpw7ea9WAivV4LBFMoBEkdAX8kPyy
+hq4+tger6LHXN7lBEcZWDw==
+-----END CERTIFICATE-----
+---
+Server certificate
+subject=CN=localhost
+issuer=CN=oqstest CA
+---
+No client certificate CA names sent
+Peer signature type: Ed25519
+---
+SSL handshake has read 1404 bytes and written 1317 bytes
+Verification: OK
+---
+New, TLSv1.3, Cipher is TLS_AES_256_GCM_SHA384
+Server public key is 256 bit
+This TLS version forbids renegotiation.
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+Early data was not sent
+Verify return code: 0 (ok)
+---
+-----
+-----
+Certificate request self-signature ok
+subject=CN=localhost
+Running /opt/oqssa/bin/perftestHandshakeServer.sh with SIG_ALG=ed25519 and KEM_ALG=p256_hqc128
+
+Using default temp DH parameters
+ACCEPT
+CONNECTED(00000003)
+Connecting to ::1
+SSL_connect:before SSL initialization
+SSL_connect:SSLv3/TLS write client hello
+SSL_connect:SSLv3/TLS write client hello
+SSL_connect:SSLv3/TLS read server hello
+SSL_connect:TLSv1.3 read encrypted extensions
+depth=1 CN=oqstest CA
+verify return:1
+depth=0 CN=localhost
+verify return:1
+SSL_connect:SSLv3/TLS read server certificate
+SSL_connect:TLSv1.3 read server certificate verify
+SSL_connect:SSLv3/TLS read finished
+SSL_connect:SSLv3/TLS write change cipher spec
+SSL_connect:SSLv3/TLS write finished
+DONE
+SSL3 alert write:warning:close notify
+---
+Certificate chain
+ 0 s:CN=localhost
+   i:CN=oqstest CA
+   a:PKEY: ED25519, 256 (bit); sigalg: ED25519
+   v:NotBefore: Mar 16 15:01:16 2025 GMT; NotAfter: Mar 16 15:01:16 2026 GMT
+-----BEGIN CERTIFICATE-----
+MIIBLDCB36ADAgECAhRP3eHoXOQk6WyoRRUjkWj2yxGP1jAFBgMrZXAwFTETMBEG
+A1UEAwwKb3FzdGVzdCBDQTAeFw0yNTAzMTYxNTAxMTZaFw0yNjAzMTYxNTAxMTZa
+MBQxEjAQBgNVBAMMCWxvY2FsaG9zdDAqMAUGAytlcAMhAGP+tIkTe+5Hf+4aGKeO
+vPjaL0lD6I+8+Owu0Mki5aPwo0IwQDAdBgNVHQ4EFgQUtYZF/WHpg1btb3tlgBDI
+dtMRsX0wHwYDVR0jBBgwFoAUC148OKJgAEzJhqyIL7EiP73A5PIwBQYDK2VwA0EA
+Mv1Ti9j25TL0AGl9fL1FFumYre7Uq9uufADNn9kdbIP0/F344+cwp+QiOJaWkDQQ
+Nd/NBHvHW1znan6uT/saAw==
+-----END CERTIFICATE-----
+---
+Server certificate
+subject=CN=localhost
+issuer=CN=oqstest CA
+---
+No client certificate CA names sent
+Peer signature type: Ed25519
+---
+SSL handshake has read 5134 bytes and written 2831 bytes
+Verification: OK
+---
+New, TLSv1.3, Cipher is TLS_AES_256_GCM_SHA384
+Server public key is 256 bit
+This TLS version forbids renegotiation.
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+Early data was not sent
+Verify return code: 0 (ok)
+---
+-----
+-----
+Certificate request self-signature ok
+subject=CN=localhost
+Running /opt/oqssa/bin/perftestHandshakeServer.sh with SIG_ALG=ed25519 and KEM_ALG=x25519_hqc128
+
+Using default temp DH parameters
+ACCEPT
+Connecting to ::1
+SSL_connect:before SSL initialization
+CONNECTED(00000003)
+SSL_connect:SSLv3/TLS write client hello
+SSL_connect:SSLv3/TLS write client hello
+SSL_connect:SSLv3/TLS read server hello
+SSL_connect:TLSv1.3 read encrypted extensions
+depth=1 CN=oqstest CA
+verify return:1
+depth=0 CN=localhost
+verify return:1
+SSL_connect:SSLv3/TLS read server certificate
+SSL_connect:TLSv1.3 read server certificate verify
+SSL_connect:SSLv3/TLS read finished
+SSL_connect:SSLv3/TLS write change cipher spec
+SSL_connect:SSLv3/TLS write finished
+SSL_connect:SSL negotiation finished successfully
+SSL_connect:SSL negotiation finished successfully
+---
+Certificate chain
+ 0 s:CN=localhost
+   i:CN=oqstest CA
+   a:PKEY: ED25519, 256 (bit); sigalg: ED25519
+   v:NotBefore: Mar 16 15:01:22 2025 GMT; NotAfter: Mar 16 15:01:22 2026 GMT
+-----BEGIN CERTIFICATE-----
+MIIBLDCB36ADAgECAhR6MxCM25R4Mh/fkuva7p68oZj9EjAFBgMrZXAwFTETMBEG
+A1UEAwwKb3FzdGVzdCBDQTAeFw0yNTAzMTYxNTAxMjJaFw0yNjAzMTYxNTAxMjJa
+MBQxEjAQBgNVBAMMCWxvY2FsaG9zdDAqMAUGAytlcAMhADJ+j2UVB5xcmja9++aI
+uBZvOnuOd6YNUtESKSDBdQEio0IwQDAdBgNVHQ4EFgQUI+qNLah5/b8tV0QRsx4n
++s9sCR0wHwYDVR0jBBgwFoAUqEXY0jQArFo3Pi0NeMw9sBKZTKUwBQYDK2VwA0EA
+HzHhAVQQAqFyc8ku68Be5aPnruCHBXIZ3admBVYVwGvZjDsT5KMxQJ6HVI/SiNhT
+chHQU+SPZyNJpWlRMwVaCA==
+-----END CERTIFICATE-----
+---
+Server certificate
+subject=CN=localhost
+issuer=CN=oqstest CA
+---
+No client certificate CA names sent
+Peer signature type: Ed25519
+---
+SSL handshake has read 5101 bytes and written 2798 bytes
+Verification: OK
+---
+New, TLSv1.3, Cipher is TLS_AES_256_GCM_SHA384
+Server public key is 256 bit
+This TLS version forbids renegotiation.
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+Early data was not sent
+Verify return code: 0 (ok)
+---
+---
+Post-Handshake New Session Ticket arrived:
+SSL-Session:
+    Protocol  : TLSv1.3
+    Cipher    : TLS_AES_256_GCM_SHA384
+    Session-ID: 138F9D8F82F87621235382A031F3CD6ACDDF3F0775E8C6E8D62DC845B0742BEF
+    Session-ID-ctx: 
+    Resumption PSK: 5C8B77185CA077FE429E27E5474C42643CE5A7D0861A0C065FB7743D4ECA0C32DE2DF509319E277F5A5D3A377C6FD239
+    PSK identity: None
+    PSK identity hint: None
+    SRP username: None
+    TLS session ticket lifetime hint: 7200 (seconds)
+    TLS session ticket:
+    0000 - 5c 94 c9 1d a7 c9 0a e3-0a 60 bc 7f 4e 05 b3 a8   \........`..N...
+    0010 - 8e 18 0a ac 28 53 82 e0-70 aa 28 43 dc d1 98 cc   ....(S..p.(C....
+    0020 - e9 1a ca e2 48 ba cc 47-10 df 3e 73 fb 4f 0b 73   ....H..G..>s.O.s
+    0030 - 6c a5 95 59 c1 37 3c e3-a8 3d f4 e4 f3 81 3f 16   l..Y.7<..=....?.
+    0040 - 96 e3 0a 0e 86 82 45 3d-6d f3 bd a4 fc 39 d0 57   ......E=m....9.W
+    0050 - 34 87 f2 1b e5 c4 23 8f-7b 48 6b a0 0c e8 99 76   4.....#.{Hk....v
+    0060 - 9a 68 58 18 94 fc b6 e0-5f 56 b8 1c 64 c7 23 a1   .hX....._V..d.#.
+    0070 - 9a 0e 25 0f 2e fb 0d 66-d9 68 88 c6 a0 1e d9 6a   ..%....f.h.....j
+    0080 - 54 94 b2 63 42 82 6f 27-8d 08 7f 4f db d9 4f 1e   T..cB.o'...O..O.
+    0090 - 15 eb 98 df 0c c0 e9 c4-f5 7e 37 c2 fb 5c 45 6f   .........~7..\Eo
+    00a0 - 06 33 f4 9a 12 18 fa ed-4e 9b 96 13 89 26 ad 2b   .3......N....&.+
+    00b0 - 55 ee d3 26 f1 7f 77 c0-c7 bb 25 d5 96 49 0a fa   U..&..w...%..I..
+    00c0 - db 86 1f 1d 4a d1 09 f9-e9 73 76 a2 7a cb e9 03   ....J....sv.z...
+
+    Start Time: 1742137283
+    Timeout   : 7200 (sec)
+    Verify return code: 0 (ok)
+    Extended master secret: no
+    Max Early Data: 0
+---
+read R BLOCK
+---
+Post-Handshake New Session Ticket arrived:
+SSL-Session:
+    Protocol  : TLSv1.3
+    Cipher    : TLS_AES_256_GCM_SHA384
+    Session-ID: 0D5E4D0BDBC459F81392FC11F61E72C6CFCB901C82BFBF10B9FB111D340007B0
+    Session-ID-ctx: 
+    Resumption PSK: A59F9E675693A611E38253804DFEE3E64C1BE7BD3DE1AA1D167A55ED7B6C4EBDF9AADC1CC9051AEF78D3D3E37912FCFC
+    PSK identity: None
+    PSK identity hint: None
+    SRP username: None
+    TLS session ticket lifetime hint: 7200 (seconds)
+    TLS session ticket:
+    0000 - 5c 94 c9 1d a7 c9 0a e3-0a 60 bc 7f 4e 05 b3 a8   \........`..N...
+    0010 - 78 d9 74 3f 3b e6 fb 37-05 1e 17 d0 d7 9a 25 ee   x.t?;..7......%.
+    0020 - df 46 2e d1 09 82 40 25-e2 bf 4d f6 43 84 c3 3b   .F....@%..M.C..;
+    0030 - e1 d4 30 da e9 49 eb 5c-25 e7 32 08 67 6a af 15   ..0..I.\%.2.gj..
+    0040 - bc 66 80 af be 61 42 19-bc ff 15 63 99 fd 4f 01   .f...aB....c..O.
+    0050 - dc 78 c1 f9 91 42 31 2f-a0 c9 8d 6e 4d 2a e8 d3   .x...B1/...nM*..
+    0060 - bf c2 28 8d 7d 20 91 00-0b a4 54 cd e0 1c c2 b5   ..(.} ....T.....
+    0070 - 98 74 ac e4 42 2a 1a 36-40 2a 1d 24 fd b5 15 55   .t..B*.6@*.$...U
+    0080 - 24 c3 8a fb 42 a5 fa 68-5f 2e 3a 39 35 25 46 30   $...B..h_.:95%F0
+    0090 - b9 25 b4 a5 34 d2 1b b4-7f fa 82 1b b8 24 5b bf   .%..4........$[.
+    00a0 - b6 30 ce e5 fe 17 28 7c-4f 1b 76 d0 81 98 82 e7   .0....(|O.v.....
+    00b0 - 91 50 82 42 db 42 b0 99-cb 21 98 dd fa 6b 3f ff   .P.B.B...!...k?.
+    00c0 - 17 92 60 79 f0 d9 e2 e7-cd 3d ab 75 6b 06 49 20   ..`y.....=.uk.I 
+HTTP/1.0 200 ok
+Content-type: text/html
+
+<HTML><BODY BGCOLOR="#ffffff">
+<pre>
+
+s_server -cert /opt/test/server.crt -key /opt/test/server.key -groups x25519_hqc128 -www -tls1_3 -accept localhost:4433 
+This TLS version forbids renegotiation.
+Ciphers supported in s_server binary
+TLSv1.3    :TLS_AES_256_GCM_SHA384    TLSv1.3    :TLS_CHACHA20_POLY1305_SHA256 
+TLSv1.3    :TLS_AES_128_GCM_SHA256    TLSv1.2    :ECDHE-ECDSA-AES256-GCM-SHA384 
+TLSv1.2    :ECDHE-RSA-AES256-GCM-SHA384 TLSv1.2    :DHE-RSA-AES256-GCM-SHA384 
+TLSv1.2    :ECDHE-ECDSA-CHACHA20-POLY1305 TLSv1.2    :ECDHE-RSA-CHACHA20-POLY1305 
+TLSv1.2    :DHE-RSA-CHACHA20-POLY1305 TLSv1.2    :ECDHE-ECDSA-AES128-GCM-SHA256 
+TLSv1.2    :ECDHE-RSA-AES128-GCM-SHA256 TLSv1.2    :DHE-RSA-AES128-GCM-SHA256 
+TLSv1.2    :ECDHE-ECDSA-AES256-SHA384 TLSv1.2    :ECDHE-RSA-AES256-SHA384   
+TLSv1.2    :DHE-RSA-AES256-SHA256     TLSv1.2    :ECDHE-ECDSA-AES128-SHA256 
+TLSv1.2    :ECDHE-RSA-AES128-SHA256   TLSv1.2    :DHE-RSA-AES128-SHA256     
+TLSv1.0    :ECDHE-ECDSA-AES256-SHA    TLSv1.0    :ECDHE-RSA-AES256-SHA      
+SSLv3      :DHE-RSA-AES256-SHA        TLSv1.0    :ECDHE-ECDSA-AES128-SHA    
+TLSv1.0    :ECDHE-RSA-AES128-SHA      SSLv3      :DHE-RSA-AES128-SHA        
+TLSv1.2    :RSA-PSK-AES256-GCM-SHA384 TLSv1.2    :DHE-PSK-AES256-GCM-SHA384 
+TLSv1.2    :RSA-PSK-CHACHA20-POLY1305 TLSv1.2    :DHE-PSK-CHACHA20-POLY1305 
+TLSv1.2    :ECDHE-PSK-CHACHA20-POLY1305 TLSv1.2    :AES256-GCM-SHA384         
+TLSv1.2    :PSK-AES256-GCM-SHA384     TLSv1.2    :PSK-CHACHA20-POLY1305     
+TLSv1.2    :RSA-PSK-AES128-GCM-SHA256 TLSv1.2    :DHE-PSK-AES128-GCM-SHA256 
+TLSv1.2    :AES128-GCM-SHA256         TLSv1.2    :PSK-AES128-GCM-SHA256     
+TLSv1.2    :AES256-SHA256             TLSv1.2    :AES128-SHA256             
+TLSv1.0    :ECDHE-PSK-AES256-CBC-SHA384 TLSv1.0    :ECDHE-PSK-AES256-CBC-SHA  
+SSLv3      :SRP-RSA-AES-256-CBC-SHA   SSLv3      :SRP-AES-256-CBC-SHA       
+TLSv1.0    :RSA-PSK-AES256-CBC-SHA384 TLSv1.0    :DHE-PSK-AES256-CBC-SHA384 
+SSLv3      :RSA-PSK-AES256-CBC-SHA    SSLv3      :DHE-PSK-AES256-CBC-SHA    
+SSLv3      :AES256-SHA                TLSv1.0    :PSK-AES256-CBC-SHA384     
+SSLv3      :PSK-AES256-CBC-SHA        TLSv1.0    :ECDHE-PSK-AES128-CBC-SHA256 
+TLSv1.0    :ECDHE-PSK-AES128-CBC-SHA  SSLv3      :SRP-RSA-AES-128-CBC-SHA   
+SSLv3      :SRP-AES-128-CBC-SHA       TLSv1.0    :RSA-PSK-AES128-CBC-SHA256 
+TLSv1.0    :DHE-PSK-AES128-CBC-SHA256 SSLv3      :RSA-PSK-AES128-CBC-SHA    
+SSLv3      :DHE-PSK-AES128-CBC-SHA    SSLv3      :AES128-SHA                
+TLSv1.0    :PSK-AES128-CBC-SHA256     SSLv3      :PSK-AES128-CBC-SHA        
+---
+Ciphers common between both SSL end points:
+TLS_AES_256_GCM_SHA384     TLS_CHACHA20_POLY1305_SHA256 TLS_AES_128_GCM_SHA256    
+ECDHE-ECDSA-AES256-GCM-SHA384 ECDHE-RSA-AES256-GCM-SHA384 DHE-RSA-AES256-GCM-SHA384 
+ECDHE-ECDSA-CHACHA20-POLY1305 ECDHE-RSA-CHACHA20-POLY1305 DHE-RSA-CHACHA20-POLY1305 
+ECDHE-ECDSA-AES128-GCM-SHA256 ECDHE-RSA-AES128-GCM-SHA256 DHE-RSA-AES128-GCM-SHA256 
+ECDHE-ECDSA-AES256-SHA384  ECDHE-RSA-AES256-SHA384    DHE-RSA-AES256-SHA256     
+ECDHE-ECDSA-AES128-SHA256  ECDHE-RSA-AES128-SHA256    DHE-RSA-AES128-SHA256     
+ECDHE-ECDSA-AES256-SHA     ECDHE-RSA-AES256-SHA       DHE-RSA-AES256-SHA        
+ECDHE-ECDSA-AES128-SHA     ECDHE-RSA-AES128-SHA       DHE-RSA-AES128-SHA        
+AES256-GCM-SHA384          AES128-GCM-SHA256          AES256-SHA256             
+AES128-SHA256              AES256-SHA                 AES128-SHA
+Signature Algorithms: ECDSA+SHA256:ECDSA+SHA384:ECDSA+SHA512:Ed25519:Ed448:ECDSA+SHA256:ECDSA+SHA384:ECDSA+SHA512:RSA-PSS+SHA256:RSA-PSS+SHA384:RSA-PSS+SHA512:RSA-PSS+SHA256:RSA-PSS+SHA384:RSA-PSS+SHA512:RSA+SHA256:RSA+SHA384:RSA+SHA512:ECDSA+SHA224:RSA+SHA224:DSA+SHA224:DSA+SHA256:DSA+SHA384:DSA+SHA512:dilithium2:p256_dilithium2:rsa3072_dilithium2:dilithium3:p384_dilithium3:dilithium5:p521_dilithium5:mldsa44:p256_mldsa44:rsa3072_mldsa44:mldsa44_pss2048:mldsa44_rsa2048:mldsa44_ed25519:mldsa44_p256:mldsa44_bp256:mldsa65:p384_mldsa65:mldsa65_pss3072:mldsa65_rsa3072:mldsa65_p256:mldsa65_bp256:mldsa65_ed25519:mldsa87:p521_mldsa87:mldsa87_p384:mldsa87_bp384:mldsa87_ed448:falcon512:p256_falcon512:rsa3072_falcon512:falconpadded512:p256_falconpadded512:rsa3072_falconpadded512:falcon1024:p521_falcon1024:falconpadded1024:p521_falconpadded1024:sphincssha2128fsimple:p256_sphincssha2128fsimple:rsa3072_sphincssha2128fsimple:sphincssha2128ssimple:p256_sphincssha2128ssimple:rsa3072_sphincssha2128ssimple:sphincssha2192fsimple:p384_sphincssha2192fsimple:sphincssha2192ssimple:p384_sphincssha2192ssimple:sphincssha2256fsimple:p521_sphincssha2256fsimple:sphincssha2256ssimple:p521_sphincssha2256ssimple:sphincsshake128fsimple:p256_sphincsshake128fsimple:rsa3072_sphincsshake128fsimple:sphincsshake128ssimple:p256_sphincsshake128ssimple:rsa3072_sphincsshake128ssimple:sphincsshake192fsimple:p384_sphincsshake192fsimple:sphincsshake192ssimple:p384_sphincsshake192ssimple:sphincsshake256fsimple:p521_sphincsshake256fsimple:sphincsshake256ssimple:p521_sphincsshake256ssimple:mayo1:p256_mayo1:mayo2:p256_mayo2:mayo3:p384_mayo3:mayo5:p521_mayo5:CROSSrsdp128balanced:CROSSrsdp128fast:CROSSrsdp128small:CROSSrsdp192balanced:CROSSrsdp192fast:CROSSrsdp192small:CROSSrsdp256small:CROSSrsdpg128balanced:CROSSrsdpg128fast:CROSSrsdpg128small:CROSSrsdpg192balanced:CROSSrsdpg192fast:CROSSrsdpg192small:CROSSrsdpg256balanced:CROSSrsdpg256fast:CROSSrsdpg256small
+Shared Signature Algorithms: ECDSA+SHA256:ECDSA+SHA384:ECDSA+SHA512:Ed25519:Ed448:ECDSA+SHA256:ECDSA+SHA384:ECDSA+SHA512:RSA-PSS+SHA256:RSA-PSS+SHA384:RSA-PSS+SHA512:RSA-PSS+SHA256:RSA-PSS+SHA384:RSA-PSS+SHA512:RSA+SHA256:RSA+SHA384:RSA+SHA512:ECDSA+SHA224:RSA+SHA224:dilithium2:p256_dilithium2:rsa3072_dilithium2:dilithium3:p384_dilithium3:dilithium5:p521_dilithium5:mldsa44:p256_mldsa44:rsa3072_mldsa44:mldsa44_pss2048:mldsa44_rsa2048:mldsa44_ed25519:mldsa44_p256:mldsa44_bp256:mldsa65:p384_mldsa65:mldsa65_pss3072:mldsa65_rsa3072:mldsa65_p256:mldsa65_bp256:mldsa65_ed25519:mldsa87:p521_mldsa87:mldsa87_p384:mldsa87_bp384:mldsa87_ed448:falcon512:p256_falcon512:rsa3072_falcon512:falconpadded512:p256_falconpadded512:rsa3072_falconpadded512:falcon1024:p521_falcon1024:falconpadded1024:p521_falconpadded1024:sphincssha2128fsimple:p256_sphincssha2128fsimple:rsa3072_sphincssha2128fsimple:sphincssha2128ssimple:p256_sphincssha2128ssimple:rsa3072_sphincssha2128ssimple:sphincssha2192fsimple:p384_sphincssha2192fsimple:sphincssha2192ssimple:p384_sphincssha2192ssimple:sphincssha2256fsimple:p521_sphincssha2256fsimple:sphincssha2256ssimple:p521_sphincssha2256ssimple:sphincsshake128fsimple:p256_sphincsshake128fsimple:rsa3072_sphincsshake128fsimple:sphincsshake128ssimple:p256_sphincsshake128ssimple:rsa3072_sphincsshake128ssimple:sphincsshake192fsimple:p384_sphincsshake192fsimple:sphincsshake192ssimple:p384_sphincsshake192ssimple:sphincsshake256fsimple:p521_sphincsshake256fsimple:sphincsshake256ssimple:p521_sphincsshake256ssimple:mayo1:p256_mayo1:mayo2:p256_mayo2:mayo3:p384_mayo3:mayo5:p521_mayo5:CROSSrsdp128balanced:CROSSrsdp128fast:CROSSrsdp128small:CROSSrsdp192balanced:CROSSrsdp192fast:CROSSrsdp192small:CROSSrsdp256small:CROSSrsdpg128balanced:CROSSrsdpg128fast:CROSSrsdpg128small:CROSSrsdpg192balanced:CROSSrsdpg192fast:CROSSrsdpg192small:CROSSrsdpg256balanced:CROSSrsdpg256fast:CROSSrsdpg256small
+Supported groups: x25519_hqc128
+Shared groups: x25519_hqc128
+---
+New, TLSv1.3, Cipher is TLS_AES_256_GCM_SHA384
+SSL-Session:
+    Protocol  : TLSv1.3
+    Cipher    : TLS_AES_256_GCM_SHA384
+    Session-ID: BA5EF0463C9E73BB34B308135B910A23063CA260129332FD023B57825F7E6C13
+    Session-ID-ctx: 01000000
+    Resumption PSK: A59F9E675693A611E38253804DFEE3E64C1BE7BD3DE1AA1D167A55ED7B6C4EBDF9AADC1CC9051AEF78D3D3E37912FCFC
+    PSK identity: None
+    PSK identity hint: None
+    SRP username: None
+    Start Time: 1742137283
+    Timeout   : 7200 (sec)
+    Verify return code: 0 (ok)
+    Extended master secret: no
+    Max Early Data: 0
+---
+   0 items in the session cache
+   0 client connects (SSL_connect())
+   0 client renegotiates (SSL_connect())
+   0 client connects that finished
+   1 server accepts (SSL_accept())
+   0 server renegotiates (SSL_accept())
+   1 server accepts that finished
+   0 session cache hits
+   0 session cache misses
+   0 session cache timeouts
+   0 callback cache hits
+   0 cache full overflows (128 allowed)
+---
+no client certificate available
+</pre></BODY></HTML>
+
+SSL_connect:SSLv3/TLS read server session ticket
+SSL_connect:SSL negotiation finished successfully
+SSL_connect:SSL negotiation finished successfully
+SSL_connect:SSLv3/TLS read server session ticket
+SSL3 alert read:warning:close notify
+SSL3 alert write:warning:close notify
+
+    Start Time: 1742137283
+    Timeout   : 7200 (sec)
+    Verify return code: 0 (ok)
+    Extended master secret: no
+    Max Early Data: 0
+---
+read R BLOCK
+closed
+-----
+-----
+Certificate request self-signature ok
+subject=CN=localhost
+Running /opt/oqssa/bin/perftestHandshakeServer.sh with SIG_ALG=ed25519 and KEM_ALG=hqc128
+
+Using default temp DH parameters
+ACCEPT
+CONNECTED(00000003)
+Connecting to ::1
+SSL_connect:before SSL initialization
+SSL_connect:SSLv3/TLS write client hello
+SSL_connect:SSLv3/TLS write client hello
+SSL_connect:SSLv3/TLS read server hello
+SSL_connect:TLSv1.3 read encrypted extensions
+depth=1 CN=oqstest CA
+verify return:1
+depth=0 CN=localhost
+verify return:1
+SSL_connect:SSLv3/TLS read server certificate
+SSL_connect:TLSv1.3 read server certificate verify
+SSL_connect:SSLv3/TLS read finished
+SSL_connect:SSLv3/TLS write change cipher spec
+SSL_connect:SSLv3/TLS write finished
+DONE
+SSL3 alert write:warning:close notify
+---
+Certificate chain
+ 0 s:CN=localhost
+   i:CN=oqstest CA
+   a:PKEY: ED25519, 256 (bit); sigalg: ED25519
+   v:NotBefore: Mar 16 15:01:18 2025 GMT; NotAfter: Mar 16 15:01:18 2026 GMT
+-----BEGIN CERTIFICATE-----
+MIIBLDCB36ADAgECAhR5S/y5z9oBUcRUoJ5Ep8e4uZ5C7DAFBgMrZXAwFTETMBEG
+A1UEAwwKb3FzdGVzdCBDQTAeFw0yNTAzMTYxNTAxMThaFw0yNjAzMTYxNTAxMTha
+MBQxEjAQBgNVBAMMCWxvY2FsaG9zdDAqMAUGAytlcAMhAINvr8MVRY+OLXVabdJ7
+2jV/xfDAeXSvtBUTfADp1X6Wo0IwQDAdBgNVHQ4EFgQUtNQMDgSyCB54P5q09wMm
+C/xT1vkwHwYDVR0jBBgwFoAU2+F/4sVkhdNCud6KZj7MvRvma9owBQYDK2VwA0EA
+yLpa2vMrlafTidiegGeYsj771J7R7Yu2kkgM0AGz8vmRxducgB+bZhK1pW+kPjr8
+xExrFUGuV4/5fOv1+YZeAw==
+-----END CERTIFICATE-----
+---
+Server certificate
+subject=CN=localhost
+issuer=CN=oqstest CA
+---
+No client certificate CA names sent
+Peer signature type: Ed25519
+---
+SSL handshake has read 5069 bytes and written 2766 bytes
+Verification: OK
+---
+New, TLSv1.3, Cipher is TLS_AES_256_GCM_SHA384
+Server public key is 256 bit
+This TLS version forbids renegotiation.
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+Early data was not sent
+Verify return code: 0 (ok)
+---
