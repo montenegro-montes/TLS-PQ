@@ -1,0 +1,16 @@
+SIG_ALG,KEM_ALG,Read Bytes,Written Bytes
+mldsa65,p384_mlkem768,10262,1798
+mldsa65,x448_mlkem768,10221,1757
+mldsa65,mlkem768,10165,1701
+sphincssha2192fsimple,p384_mlkem768,73136,1798
+sphincssha2192fsimple,x448_mlkem768,73095,1757
+sphincssha2192fsimple,mlkem768,73039,1701
+sphincssha2192ssimple,p384_mlkem768,34190,1798
+sphincssha2192ssimple,x448_mlkem768,34149,1757
+sphincssha2192ssimple,mlkem768,34093,1701
+mayo3,p384_mlkem768,5487,1798
+mayo3,x448_mlkem768,5446,1757
+mayo3,mlkem768,5390,1701
+CROSSrsdpg192balanced,p384_mlkem768,48575,1798
+CROSSrsdpg192balanced,x448_mlkem768,48534,1757
+CROSSrsdpg192balanced,mlkem768,48478,1701
