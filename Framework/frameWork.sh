@@ -14,7 +14,7 @@ show_menu() {
     echo "╔════════════════════════════════════════╗"
     echo "║      🐳  Docker & Protocol Menu        ║"
     echo "╠════════════════════════════════════════╣"
-    echo "║ 1️⃣  Chek installation                   ║"
+    echo "║ 1️⃣  Check installation                  ║"
     echo "║ 2️⃣  Docker creation                     ║"
     echo "║ 3️⃣  Running Scenario                    ║"
     echo "║ 4️⃣  Exit                                ║"
