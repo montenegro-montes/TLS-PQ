@@ -1,0 +1,1055 @@
+tc
+Mostrando el estado de qdisc para la interfaz: lo
+qdisc netem 8280: root refcnt 2 limit 1000 delay 20.0ms
+ Sent 0 bytes 0 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+Certificate request self-signature ok
+subject=CN=localhost
+Running /opt/oqssa/bin/perftestServerECDSA.sh with SIG_ALG=secp384r1 and KEM_ALG=P-384
+
+Using default temp DH parameters
+ACCEPT
+Execution 1
+s_time: verify depth is 1
+81 connections in 0.57s; 142.11 connections/user sec, bytes read 0
+81 connections in 11 real seconds, 0 bytes read per connection
+Execution 2
+s_time: verify depth is 1
+121 connections in 0.77s; 157.14 connections/user sec, bytes read 0
+121 connections in 11 real seconds, 0 bytes read per connection
+Execution 3
+s_time: verify depth is 1
+121 connections in 0.78s; 155.13 connections/user sec, bytes read 0
+121 connections in 11 real seconds, 0 bytes read per connection
+Execution 4
+s_time: verify depth is 1
+103 connections in 0.69s; 149.28 connections/user sec, bytes read 0
+103 connections in 13 real seconds, 0 bytes read per connection
+Execution 5
+s_time: verify depth is 1
+121 connections in 0.77s; 157.14 connections/user sec, bytes read 0
+121 connections in 11 real seconds, 0 bytes read per connection
+Execution 6
+s_time: verify depth is 1
+121 connections in 0.78s; 155.13 connections/user sec, bytes read 0
+121 connections in 11 real seconds, 0 bytes read per connection
+Execution 7
+s_time: verify depth is 1
+112 connections in 0.79s; 141.77 connections/user sec, bytes read 0
+112 connections in 13 real seconds, 0 bytes read per connection
+Execution 8
+s_time: verify depth is 1
+112 connections in 0.70s; 160.00 connections/user sec, bytes read 0
+112 connections in 11 real seconds, 0 bytes read per connection
+Execution 9
+s_time: verify depth is 1
+121 connections in 0.79s; 153.16 connections/user sec, bytes read 0
+121 connections in 11 real seconds, 0 bytes read per connection
+Execution 10
+s_time: verify depth is 1
+120 connections in 0.78s; 153.85 connections/user sec, bytes read 0
+120 connections in 11 real seconds, 0 bytes read per connection
+Execution 11
+s_time: verify depth is 1
+81 connections in 0.55s; 147.27 connections/user sec, bytes read 0
+81 connections in 11 real seconds, 0 bytes read per connection
+Execution 12
+s_time: verify depth is 1
+121 connections in 0.78s; 155.13 connections/user sec, bytes read 0
+121 connections in 11 real seconds, 0 bytes read per connection
+Execution 13
+s_time: verify depth is 1
+121 connections in 0.78s; 155.13 connections/user sec, bytes read 0
+121 connections in 11 real seconds, 0 bytes read per connection
+Execution 14
+s_time: verify depth is 1
+81 connections in 0.55s; 147.27 connections/user sec, bytes read 0
+81 connections in 11 real seconds, 0 bytes read per connection
+Execution 15
+s_time: verify depth is 1
+121 connections in 0.77s; 157.14 connections/user sec, bytes read 0
+121 connections in 11 real seconds, 0 bytes read per connection
+Execution 16
+s_time: verify depth is 1
+121 connections in 0.78s; 155.13 connections/user sec, bytes read 0
+121 connections in 11 real seconds, 0 bytes read per connection
+Execution 17
+s_time: verify depth is 1
+82 connections in 0.53s; 154.72 connections/user sec, bytes read 0
+82 connections in 11 real seconds, 0 bytes read per connection
+Execution 18
+s_time: verify depth is 1
+120 connections in 0.87s; 137.93 connections/user sec, bytes read 0
+120 connections in 11 real seconds, 0 bytes read per connection
+Execution 19
+s_time: verify depth is 1
+120 connections in 0.84s; 142.86 connections/user sec, bytes read 0
+120 connections in 11 real seconds, 0 bytes read per connection
+Execution 20
+s_time: verify depth is 1
+93 connections in 0.66s; 140.91 connections/user sec, bytes read 0
+93 connections in 12 real seconds, 0 bytes read per connection
+Execution 21
+s_time: verify depth is 1
+119 connections in 0.82s; 145.12 connections/user sec, bytes read 0
+119 connections in 11 real seconds, 0 bytes read per connection
+Execution 22
+s_time: verify depth is 1
+120 connections in 0.77s; 155.84 connections/user sec, bytes read 0
+120 connections in 11 real seconds, 0 bytes read per connection
+Execution 23
+s_time: verify depth is 1
+114 connections in 0.77s; 148.05 connections/user sec, bytes read 0
+114 connections in 14 real seconds, 0 bytes read per connection
+Execution 24
+s_time: verify depth is 1
+120 connections in 0.84s; 142.86 connections/user sec, bytes read 0
+120 connections in 11 real seconds, 0 bytes read per connection
+Execution 25
+s_time: verify depth is 1
+120 connections in 0.88s; 136.36 connections/user sec, bytes read 0
+120 connections in 11 real seconds, 0 bytes read per connection
+Execution 26
+s_time: verify depth is 1
+112 connections in 0.80s; 140.00 connections/user sec, bytes read 0
+112 connections in 13 real seconds, 0 bytes read per connection
+Execution 27
+s_time: verify depth is 1
+112 connections in 0.72s; 155.56 connections/user sec, bytes read 0
+112 connections in 11 real seconds, 0 bytes read per connection
+Execution 28
+s_time: verify depth is 1
+121 connections in 0.78s; 155.13 connections/user sec, bytes read 0
+121 connections in 11 real seconds, 0 bytes read per connection
+Execution 29
+s_time: verify depth is 1
+120 connections in 0.82s; 146.34 connections/user sec, bytes read 0
+120 connections in 11 real seconds, 0 bytes read per connection
+Execution 30
+s_time: verify depth is 1
+82 connections in 0.52s; 157.69 connections/user sec, bytes read 0
+82 connections in 11 real seconds, 0 bytes read per connection
+Execution 31
+s_time: verify depth is 1
+119 connections in 0.84s; 141.67 connections/user sec, bytes read 0
+119 connections in 11 real seconds, 0 bytes read per connection
+Execution 32
+s_time: verify depth is 1
+121 connections in 0.83s; 145.78 connections/user sec, bytes read 0
+121 connections in 11 real seconds, 0 bytes read per connection
+Execution 33
+s_time: verify depth is 1
+81 connections in 0.51s; 158.82 connections/user sec, bytes read 0
+81 connections in 11 real seconds, 0 bytes read per connection
+Execution 34
+s_time: verify depth is 1
+120 connections in 0.84s; 142.86 connections/user sec, bytes read 0
+120 connections in 11 real seconds, 0 bytes read per connection
+Execution 35
+s_time: verify depth is 1
+121 connections in 0.83s; 145.78 connections/user sec, bytes read 0
+121 connections in 11 real seconds, 0 bytes read per connection
+Execution 36
+s_time: verify depth is 1
+81 connections in 0.56s; 144.64 connections/user sec, bytes read 0
+81 connections in 11 real seconds, 0 bytes read per connection
+Execution 37
+s_time: verify depth is 1
+120 connections in 0.83s; 144.58 connections/user sec, bytes read 0
+120 connections in 11 real seconds, 0 bytes read per connection
+Execution 38
+s_time: verify depth is 1
+121 connections in 0.76s; 159.21 connections/user sec, bytes read 0
+121 connections in 11 real seconds, 0 bytes read per connection
+Execution 39
+s_time: verify depth is 1
+94 connections in 0.61s; 154.10 connections/user sec, bytes read 0
+94 connections in 12 real seconds, 0 bytes read per connection
+Execution 40
+s_time: verify depth is 1
+119 connections in 0.76s; 156.58 connections/user sec, bytes read 0
+119 connections in 11 real seconds, 0 bytes read per connection
+Execution 41
+s_time: verify depth is 1
+120 connections in 0.85s; 141.18 connections/user sec, bytes read 0
+120 connections in 11 real seconds, 0 bytes read per connection
+Execution 42
+s_time: verify depth is 1
+114 connections in 0.72s; 158.33 connections/user sec, bytes read 0
+114 connections in 14 real seconds, 0 bytes read per connection
+Execution 43
+s_time: verify depth is 1
+122 connections in 0.76s; 160.53 connections/user sec, bytes read 0
+122 connections in 11 real seconds, 0 bytes read per connection
+Execution 44
+s_time: verify depth is 1
+120 connections in 0.82s; 146.34 connections/user sec, bytes read 0
+120 connections in 11 real seconds, 0 bytes read per connection
+Execution 45
+s_time: verify depth is 1
+111 connections in 0.83s; 133.73 connections/user sec, bytes read 0
+111 connections in 13 real seconds, 0 bytes read per connection
+Execution 46
+s_time: verify depth is 1
+112 connections in 0.75s; 149.33 connections/user sec, bytes read 0
+112 connections in 11 real seconds, 0 bytes read per connection
+Execution 47
+s_time: verify depth is 1
+121 connections in 0.75s; 161.33 connections/user sec, bytes read 0
+121 connections in 11 real seconds, 0 bytes read per connection
+Execution 48
+s_time: verify depth is 1
+121 connections in 0.76s; 159.21 connections/user sec, bytes read 0
+121 connections in 11 real seconds, 0 bytes read per connection
+Execution 49
+s_time: verify depth is 1
+82 connections in 0.52s; 157.69 connections/user sec, bytes read 0
+82 connections in 11 real seconds, 0 bytes read per connection
+Execution 50
+s_time: verify depth is 1
+121 connections in 0.76s; 159.21 connections/user sec, bytes read 0
+121 connections in 11 real seconds, 0 bytes read per connection
+tc
+Mostrando el estado de qdisc para la interfaz: lo
+qdisc netem 8281: root refcnt 2 limit 1000 delay 20.0ms
+ Sent 0 bytes 0 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+Certificate request self-signature ok
+subject=CN=localhost
+Running /opt/oqssa/bin/perftestServerECDSA.sh with SIG_ALG=secp384r1 and KEM_ALG=x448
+
+Using default temp DH parameters
+ACCEPT
+Execution 1
+s_time: verify depth is 1
+119 connections in 0.52s; 228.85 connections/user sec, bytes read 0
+119 connections in 11 real seconds, 0 bytes read per connection
+Execution 2
+s_time: verify depth is 1
+85 connections in 0.36s; 236.11 connections/user sec, bytes read 0
+85 connections in 11 real seconds, 0 bytes read per connection
+Execution 3
+s_time: verify depth is 1
+127 connections in 0.53s; 239.62 connections/user sec, bytes read 0
+127 connections in 11 real seconds, 0 bytes read per connection
+Execution 4
+s_time: verify depth is 1
+127 connections in 0.52s; 244.23 connections/user sec, bytes read 0
+127 connections in 11 real seconds, 0 bytes read per connection
+Execution 5
+s_time: verify depth is 1
+85 connections in 0.31s; 274.19 connections/user sec, bytes read 0
+85 connections in 11 real seconds, 0 bytes read per connection
+Execution 6
+s_time: verify depth is 1
+128 connections in 0.50s; 256.00 connections/user sec, bytes read 0
+128 connections in 11 real seconds, 0 bytes read per connection
+Execution 7
+s_time: verify depth is 1
+126 connections in 0.52s; 242.31 connections/user sec, bytes read 0
+126 connections in 11 real seconds, 0 bytes read per connection
+Execution 8
+s_time: verify depth is 1
+88 connections in 0.36s; 244.44 connections/user sec, bytes read 0
+88 connections in 11 real seconds, 0 bytes read per connection
+Execution 9
+s_time: verify depth is 1
+124 connections in 0.52s; 238.46 connections/user sec, bytes read 0
+124 connections in 11 real seconds, 0 bytes read per connection
+Execution 10
+s_time: verify depth is 1
+127 connections in 0.51s; 249.02 connections/user sec, bytes read 0
+127 connections in 11 real seconds, 0 bytes read per connection
+Execution 11
+s_time: verify depth is 1
+120 connections in 0.49s; 244.90 connections/user sec, bytes read 0
+120 connections in 14 real seconds, 0 bytes read per connection
+Execution 12
+s_time: verify depth is 1
+127 connections in 0.51s; 249.02 connections/user sec, bytes read 0
+127 connections in 11 real seconds, 0 bytes read per connection
+Execution 13
+s_time: verify depth is 1
+127 connections in 0.48s; 264.58 connections/user sec, bytes read 0
+127 connections in 11 real seconds, 0 bytes read per connection
+Execution 14
+s_time: verify depth is 1
+119 connections in 0.44s; 270.45 connections/user sec, bytes read 0
+119 connections in 13 real seconds, 0 bytes read per connection
+Execution 15
+s_time: verify depth is 1
+117 connections in 0.47s; 248.94 connections/user sec, bytes read 0
+117 connections in 11 real seconds, 0 bytes read per connection
+Execution 16
+s_time: verify depth is 1
+126 connections in 0.51s; 247.06 connections/user sec, bytes read 0
+126 connections in 11 real seconds, 0 bytes read per connection
+Execution 17
+s_time: verify depth is 1
+127 connections in 0.52s; 244.23 connections/user sec, bytes read 0
+127 connections in 11 real seconds, 0 bytes read per connection
+Execution 18
+s_time: verify depth is 1
+86 connections in 0.37s; 232.43 connections/user sec, bytes read 0
+86 connections in 11 real seconds, 0 bytes read per connection
+Execution 19
+s_time: verify depth is 1
+126 connections in 0.53s; 237.74 connections/user sec, bytes read 0
+126 connections in 11 real seconds, 0 bytes read per connection
+Execution 20
+s_time: verify depth is 1
+128 connections in 0.48s; 266.67 connections/user sec, bytes read 0
+128 connections in 11 real seconds, 0 bytes read per connection
+Execution 21
+s_time: verify depth is 1
+85 connections in 0.31s; 274.19 connections/user sec, bytes read 0
+85 connections in 11 real seconds, 0 bytes read per connection
+Execution 22
+s_time: verify depth is 1
+128 connections in 0.47s; 272.34 connections/user sec, bytes read 0
+128 connections in 11 real seconds, 0 bytes read per connection
+Execution 23
+s_time: verify depth is 1
+127 connections in 0.51s; 249.02 connections/user sec, bytes read 0
+127 connections in 11 real seconds, 0 bytes read per connection
+Execution 24
+s_time: verify depth is 1
+85 connections in 0.34s; 250.00 connections/user sec, bytes read 0
+85 connections in 11 real seconds, 0 bytes read per connection
+Execution 25
+s_time: verify depth is 1
+127 connections in 0.52s; 244.23 connections/user sec, bytes read 0
+127 connections in 11 real seconds, 0 bytes read per connection
+Execution 26
+s_time: verify depth is 1
+127 connections in 0.50s; 254.00 connections/user sec, bytes read 0
+127 connections in 11 real seconds, 0 bytes read per connection
+Execution 27
+s_time: verify depth is 1
+98 connections in 0.40s; 245.00 connections/user sec, bytes read 0
+98 connections in 12 real seconds, 0 bytes read per connection
+Execution 28
+s_time: verify depth is 1
+125 connections in 0.52s; 240.38 connections/user sec, bytes read 0
+125 connections in 11 real seconds, 0 bytes read per connection
+Execution 29
+s_time: verify depth is 1
+126 connections in 0.53s; 237.74 connections/user sec, bytes read 0
+126 connections in 11 real seconds, 0 bytes read per connection
+Execution 30
+s_time: verify depth is 1
+121 connections in 0.49s; 246.94 connections/user sec, bytes read 0
+121 connections in 14 real seconds, 0 bytes read per connection
+Execution 31
+s_time: verify depth is 1
+126 connections in 0.54s; 233.33 connections/user sec, bytes read 0
+126 connections in 11 real seconds, 0 bytes read per connection
+Execution 32
+s_time: verify depth is 1
+126 connections in 0.52s; 242.31 connections/user sec, bytes read 0
+126 connections in 11 real seconds, 0 bytes read per connection
+Execution 33
+s_time: verify depth is 1
+118 connections in 0.50s; 236.00 connections/user sec, bytes read 0
+118 connections in 13 real seconds, 0 bytes read per connection
+Execution 34
+s_time: verify depth is 1
+117 connections in 0.48s; 243.75 connections/user sec, bytes read 0
+117 connections in 11 real seconds, 0 bytes read per connection
+Execution 35
+s_time: verify depth is 1
+127 connections in 0.55s; 230.91 connections/user sec, bytes read 0
+127 connections in 11 real seconds, 0 bytes read per connection
+Execution 36
+s_time: verify depth is 1
+127 connections in 0.47s; 270.21 connections/user sec, bytes read 0
+127 connections in 11 real seconds, 0 bytes read per connection
+Execution 37
+s_time: verify depth is 1
+86 connections in 0.32s; 268.75 connections/user sec, bytes read 0
+86 connections in 11 real seconds, 0 bytes read per connection
+Execution 38
+s_time: verify depth is 1
+127 connections in 0.48s; 264.58 connections/user sec, bytes read 0
+127 connections in 11 real seconds, 0 bytes read per connection
+Execution 39
+s_time: verify depth is 1
+127 connections in 0.47s; 270.21 connections/user sec, bytes read 0
+127 connections in 11 real seconds, 0 bytes read per connection
+Execution 40
+s_time: verify depth is 1
+86 connections in 0.33s; 260.61 connections/user sec, bytes read 0
+86 connections in 11 real seconds, 0 bytes read per connection
+Execution 41
+s_time: verify depth is 1
+126 connections in 0.50s; 252.00 connections/user sec, bytes read 0
+126 connections in 11 real seconds, 0 bytes read per connection
+Execution 42
+s_time: verify depth is 1
+127 connections in 0.52s; 244.23 connections/user sec, bytes read 0
+127 connections in 11 real seconds, 0 bytes read per connection
+Execution 43
+s_time: verify depth is 1
+86 connections in 0.32s; 268.75 connections/user sec, bytes read 0
+86 connections in 11 real seconds, 0 bytes read per connection
+Execution 44
+s_time: verify depth is 1
+127 connections in 0.47s; 270.21 connections/user sec, bytes read 0
+127 connections in 11 real seconds, 0 bytes read per connection
+Execution 45
+s_time: verify depth is 1
+127 connections in 0.48s; 264.58 connections/user sec, bytes read 0
+127 connections in 11 real seconds, 0 bytes read per connection
+Execution 46
+s_time: verify depth is 1
+100 connections in 0.37s; 270.27 connections/user sec, bytes read 0
+100 connections in 12 real seconds, 0 bytes read per connection
+Execution 47
+s_time: verify depth is 1
+125 connections in 0.46s; 271.74 connections/user sec, bytes read 0
+125 connections in 11 real seconds, 0 bytes read per connection
+Execution 48
+s_time: verify depth is 1
+126 connections in 0.54s; 233.33 connections/user sec, bytes read 0
+126 connections in 11 real seconds, 0 bytes read per connection
+Execution 49
+s_time: verify depth is 1
+121 connections in 0.44s; 275.00 connections/user sec, bytes read 0
+121 connections in 14 real seconds, 0 bytes read per connection
+Execution 50
+s_time: verify depth is 1
+127 connections in 0.47s; 270.21 connections/user sec, bytes read 0
+127 connections in 11 real seconds, 0 bytes read per connection
+tc
+Mostrando el estado de qdisc para la interfaz: lo
+qdisc netem 8282: root refcnt 2 limit 1000 delay 20.0ms
+ Sent 0 bytes 0 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+Certificate request self-signature ok
+subject=CN=localhost
+Running /opt/oqssa/bin/perftestServerECDSA.sh with SIG_ALG=secp384r1 and KEM_ALG=p384_mlkem768
+
+Using default temp DH parameters
+ACCEPT
+Execution 1
+s_time: verify depth is 1
+110 connections in 0.98s; 112.24 connections/user sec, bytes read 0
+110 connections in 11 real seconds, 0 bytes read per connection
+Execution 2
+s_time: verify depth is 1
+86 connections in 0.77s; 111.69 connections/user sec, bytes read 0
+86 connections in 11 real seconds, 0 bytes read per connection
+Execution 3
+s_time: verify depth is 1
+104 connections in 1.00s; 104.00 connections/user sec, bytes read 0
+104 connections in 11 real seconds, 0 bytes read per connection
+Execution 4
+s_time: verify depth is 1
+113 connections in 1.12s; 100.89 connections/user sec, bytes read 0
+113 connections in 11 real seconds, 0 bytes read per connection
+Execution 5
+s_time: verify depth is 1
+113 connections in 1.07s; 105.61 connections/user sec, bytes read 0
+113 connections in 11 real seconds, 0 bytes read per connection
+Execution 6
+s_time: verify depth is 1
+78 connections in 0.66s; 118.18 connections/user sec, bytes read 0
+78 connections in 11 real seconds, 0 bytes read per connection
+Execution 7
+s_time: verify depth is 1
+114 connections in 0.96s; 118.75 connections/user sec, bytes read 0
+114 connections in 11 real seconds, 0 bytes read per connection
+Execution 8
+s_time: verify depth is 1
+115 connections in 1.00s; 115.00 connections/user sec, bytes read 0
+115 connections in 11 real seconds, 0 bytes read per connection
+Execution 9
+s_time: verify depth is 1
+77 connections in 0.69s; 111.59 connections/user sec, bytes read 0
+77 connections in 11 real seconds, 0 bytes read per connection
+Execution 10
+s_time: verify depth is 1
+114 connections in 1.01s; 112.87 connections/user sec, bytes read 0
+114 connections in 11 real seconds, 0 bytes read per connection
+Execution 11
+s_time: verify depth is 1
+115 connections in 0.96s; 119.79 connections/user sec, bytes read 0
+115 connections in 11 real seconds, 0 bytes read per connection
+Execution 12
+s_time: verify depth is 1
+78 connections in 0.63s; 123.81 connections/user sec, bytes read 0
+78 connections in 11 real seconds, 0 bytes read per connection
+Execution 13
+s_time: verify depth is 1
+114 connections in 1.01s; 112.87 connections/user sec, bytes read 0
+114 connections in 11 real seconds, 0 bytes read per connection
+Execution 14
+s_time: verify depth is 1
+115 connections in 0.95s; 121.05 connections/user sec, bytes read 0
+115 connections in 11 real seconds, 0 bytes read per connection
+Execution 15
+s_time: verify depth is 1
+89 connections in 0.79s; 112.66 connections/user sec, bytes read 0
+89 connections in 12 real seconds, 0 bytes read per connection
+Execution 16
+s_time: verify depth is 1
+113 connections in 0.95s; 118.95 connections/user sec, bytes read 0
+113 connections in 11 real seconds, 0 bytes read per connection
+Execution 17
+s_time: verify depth is 1
+115 connections in 0.93s; 123.66 connections/user sec, bytes read 0
+115 connections in 11 real seconds, 0 bytes read per connection
+Execution 18
+s_time: verify depth is 1
+109 connections in 0.91s; 119.78 connections/user sec, bytes read 0
+109 connections in 14 real seconds, 0 bytes read per connection
+Execution 19
+s_time: verify depth is 1
+114 connections in 1.02s; 111.76 connections/user sec, bytes read 0
+114 connections in 11 real seconds, 0 bytes read per connection
+Execution 20
+s_time: verify depth is 1
+114 connections in 0.99s; 115.15 connections/user sec, bytes read 0
+114 connections in 11 real seconds, 0 bytes read per connection
+Execution 21
+s_time: verify depth is 1
+107 connections in 0.91s; 117.58 connections/user sec, bytes read 0
+107 connections in 13 real seconds, 0 bytes read per connection
+Execution 22
+s_time: verify depth is 1
+106 connections in 0.93s; 113.98 connections/user sec, bytes read 0
+106 connections in 11 real seconds, 0 bytes read per connection
+Execution 23
+s_time: verify depth is 1
+114 connections in 1.01s; 112.87 connections/user sec, bytes read 0
+114 connections in 11 real seconds, 0 bytes read per connection
+Execution 24
+s_time: verify depth is 1
+115 connections in 0.97s; 118.56 connections/user sec, bytes read 0
+115 connections in 11 real seconds, 0 bytes read per connection
+Execution 25
+s_time: verify depth is 1
+77 connections in 0.65s; 118.46 connections/user sec, bytes read 0
+77 connections in 11 real seconds, 0 bytes read per connection
+Execution 26
+s_time: verify depth is 1
+115 connections in 0.99s; 116.16 connections/user sec, bytes read 0
+115 connections in 11 real seconds, 0 bytes read per connection
+Execution 27
+s_time: verify depth is 1
+115 connections in 0.94s; 122.34 connections/user sec, bytes read 0
+115 connections in 11 real seconds, 0 bytes read per connection
+Execution 28
+s_time: verify depth is 1
+77 connections in 0.64s; 120.31 connections/user sec, bytes read 0
+77 connections in 11 real seconds, 0 bytes read per connection
+Execution 29
+s_time: verify depth is 1
+114 connections in 1.03s; 110.68 connections/user sec, bytes read 0
+114 connections in 11 real seconds, 0 bytes read per connection
+Execution 30
+s_time: verify depth is 1
+115 connections in 0.99s; 116.16 connections/user sec, bytes read 0
+115 connections in 11 real seconds, 0 bytes read per connection
+Execution 31
+s_time: verify depth is 1
+78 connections in 0.65s; 120.00 connections/user sec, bytes read 0
+78 connections in 11 real seconds, 0 bytes read per connection
+Execution 32
+s_time: verify depth is 1
+115 connections in 0.94s; 122.34 connections/user sec, bytes read 0
+115 connections in 11 real seconds, 0 bytes read per connection
+Execution 33
+s_time: verify depth is 1
+115 connections in 0.95s; 121.05 connections/user sec, bytes read 0
+115 connections in 11 real seconds, 0 bytes read per connection
+Execution 34
+s_time: verify depth is 1
+90 connections in 0.76s; 118.42 connections/user sec, bytes read 0
+90 connections in 12 real seconds, 0 bytes read per connection
+Execution 35
+s_time: verify depth is 1
+113 connections in 0.98s; 115.31 connections/user sec, bytes read 0
+113 connections in 11 real seconds, 0 bytes read per connection
+Execution 36
+s_time: verify depth is 1
+115 connections in 0.96s; 119.79 connections/user sec, bytes read 0
+115 connections in 11 real seconds, 0 bytes read per connection
+Execution 37
+s_time: verify depth is 1
+109 connections in 0.90s; 121.11 connections/user sec, bytes read 0
+109 connections in 14 real seconds, 0 bytes read per connection
+Execution 38
+s_time: verify depth is 1
+114 connections in 1.02s; 111.76 connections/user sec, bytes read 0
+114 connections in 11 real seconds, 0 bytes read per connection
+Execution 39
+s_time: verify depth is 1
+116 connections in 0.95s; 122.11 connections/user sec, bytes read 0
+116 connections in 11 real seconds, 0 bytes read per connection
+Execution 40
+s_time: verify depth is 1
+106 connections in 0.92s; 115.22 connections/user sec, bytes read 0
+106 connections in 13 real seconds, 0 bytes read per connection
+Execution 41
+s_time: verify depth is 1
+106 connections in 0.90s; 117.78 connections/user sec, bytes read 0
+106 connections in 11 real seconds, 0 bytes read per connection
+Execution 42
+s_time: verify depth is 1
+114 connections in 1.03s; 110.68 connections/user sec, bytes read 0
+114 connections in 11 real seconds, 0 bytes read per connection
+Execution 43
+s_time: verify depth is 1
+115 connections in 0.96s; 119.79 connections/user sec, bytes read 0
+115 connections in 11 real seconds, 0 bytes read per connection
+Execution 44
+s_time: verify depth is 1
+76 connections in 0.71s; 107.04 connections/user sec, bytes read 0
+76 connections in 11 real seconds, 0 bytes read per connection
+Execution 45
+s_time: verify depth is 1
+116 connections in 0.97s; 119.59 connections/user sec, bytes read 0
+116 connections in 11 real seconds, 0 bytes read per connection
+Execution 46
+s_time: verify depth is 1
+114 connections in 0.96s; 118.75 connections/user sec, bytes read 0
+114 connections in 11 real seconds, 0 bytes read per connection
+Execution 47
+s_time: verify depth is 1
+77 connections in 0.71s; 108.45 connections/user sec, bytes read 0
+77 connections in 11 real seconds, 0 bytes read per connection
+Execution 48
+s_time: verify depth is 1
+114 connections in 0.99s; 115.15 connections/user sec, bytes read 0
+114 connections in 11 real seconds, 0 bytes read per connection
+Execution 49
+s_time: verify depth is 1
+113 connections in 1.09s; 103.67 connections/user sec, bytes read 0
+113 connections in 11 real seconds, 0 bytes read per connection
+Execution 50
+s_time: verify depth is 1
+76 connections in 0.64s; 118.75 connections/user sec, bytes read 0
+76 connections in 11 real seconds, 0 bytes read per connection
+tc
+Mostrando el estado de qdisc para la interfaz: lo
+qdisc netem 8283: root refcnt 2 limit 1000 delay 20.0ms
+ Sent 0 bytes 0 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+Certificate request self-signature ok
+subject=CN=localhost
+Running /opt/oqssa/bin/perftestServerECDSA.sh with SIG_ALG=secp384r1 and KEM_ALG=x448_mlkem768
+
+Using default temp DH parameters
+ACCEPT
+Execution 1
+s_time: verify depth is 1
+125 connections in 0.54s; 231.48 connections/user sec, bytes read 0
+125 connections in 11 real seconds, 0 bytes read per connection
+Execution 2
+s_time: verify depth is 1
+126 connections in 0.53s; 237.74 connections/user sec, bytes read 0
+126 connections in 11 real seconds, 0 bytes read per connection
+Execution 3
+s_time: verify depth is 1
+85 connections in 0.36s; 236.11 connections/user sec, bytes read 0
+85 connections in 11 real seconds, 0 bytes read per connection
+Execution 4
+s_time: verify depth is 1
+125 connections in 0.58s; 215.52 connections/user sec, bytes read 0
+125 connections in 11 real seconds, 0 bytes read per connection
+Execution 5
+s_time: verify depth is 1
+126 connections in 0.60s; 210.00 connections/user sec, bytes read 0
+126 connections in 11 real seconds, 0 bytes read per connection
+Execution 6
+s_time: verify depth is 1
+108 connections in 0.46s; 234.78 connections/user sec, bytes read 0
+108 connections in 13 real seconds, 0 bytes read per connection
+Execution 7
+s_time: verify depth is 1
+126 connections in 0.53s; 237.74 connections/user sec, bytes read 0
+126 connections in 11 real seconds, 0 bytes read per connection
+Execution 8
+s_time: verify depth is 1
+125 connections in 0.60s; 208.33 connections/user sec, bytes read 0
+125 connections in 11 real seconds, 0 bytes read per connection
+Execution 9
+s_time: verify depth is 1
+117 connections in 0.55s; 212.73 connections/user sec, bytes read 0
+117 connections in 13 real seconds, 0 bytes read per connection
+Execution 10
+s_time: verify depth is 1
+116 connections in 0.55s; 210.91 connections/user sec, bytes read 0
+116 connections in 11 real seconds, 0 bytes read per connection
+Execution 11
+s_time: verify depth is 1
+126 connections in 0.55s; 229.09 connections/user sec, bytes read 0
+126 connections in 11 real seconds, 0 bytes read per connection
+Execution 12
+s_time: verify depth is 1
+125 connections in 0.60s; 208.33 connections/user sec, bytes read 0
+125 connections in 11 real seconds, 0 bytes read per connection
+Execution 13
+s_time: verify depth is 1
+85 connections in 0.37s; 229.73 connections/user sec, bytes read 0
+85 connections in 11 real seconds, 0 bytes read per connection
+Execution 14
+s_time: verify depth is 1
+125 connections in 0.59s; 211.86 connections/user sec, bytes read 0
+125 connections in 11 real seconds, 0 bytes read per connection
+Execution 15
+s_time: verify depth is 1
+126 connections in 0.55s; 229.09 connections/user sec, bytes read 0
+126 connections in 11 real seconds, 0 bytes read per connection
+Execution 16
+s_time: verify depth is 1
+85 connections in 0.37s; 229.73 connections/user sec, bytes read 0
+85 connections in 11 real seconds, 0 bytes read per connection
+Execution 17
+s_time: verify depth is 1
+126 connections in 0.55s; 229.09 connections/user sec, bytes read 0
+126 connections in 11 real seconds, 0 bytes read per connection
+Execution 18
+s_time: verify depth is 1
+125 connections in 0.60s; 208.33 connections/user sec, bytes read 0
+125 connections in 11 real seconds, 0 bytes read per connection
+Execution 19
+s_time: verify depth is 1
+85 connections in 0.37s; 229.73 connections/user sec, bytes read 0
+85 connections in 11 real seconds, 0 bytes read per connection
+Execution 20
+s_time: verify depth is 1
+125 connections in 0.59s; 211.86 connections/user sec, bytes read 0
+125 connections in 11 real seconds, 0 bytes read per connection
+Execution 21
+s_time: verify depth is 1
+126 connections in 0.59s; 213.56 connections/user sec, bytes read 0
+126 connections in 11 real seconds, 0 bytes read per connection
+Execution 22
+s_time: verify depth is 1
+98 connections in 0.41s; 239.02 connections/user sec, bytes read 0
+98 connections in 12 real seconds, 0 bytes read per connection
+Execution 23
+s_time: verify depth is 1
+124 connections in 0.54s; 229.63 connections/user sec, bytes read 0
+124 connections in 11 real seconds, 0 bytes read per connection
+Execution 24
+s_time: verify depth is 1
+126 connections in 0.57s; 221.05 connections/user sec, bytes read 0
+126 connections in 11 real seconds, 0 bytes read per connection
+Execution 25
+s_time: verify depth is 1
+119 connections in 0.52s; 228.85 connections/user sec, bytes read 0
+119 connections in 14 real seconds, 0 bytes read per connection
+Execution 26
+s_time: verify depth is 1
+126 connections in 0.54s; 233.33 connections/user sec, bytes read 0
+126 connections in 11 real seconds, 0 bytes read per connection
+Execution 27
+s_time: verify depth is 1
+125 connections in 0.54s; 231.48 connections/user sec, bytes read 0
+125 connections in 11 real seconds, 0 bytes read per connection
+Execution 28
+s_time: verify depth is 1
+116 connections in 0.61s; 190.16 connections/user sec, bytes read 0
+116 connections in 13 real seconds, 0 bytes read per connection
+Execution 29
+s_time: verify depth is 1
+115 connections in 0.56s; 205.36 connections/user sec, bytes read 0
+115 connections in 11 real seconds, 0 bytes read per connection
+Execution 30
+s_time: verify depth is 1
+124 connections in 0.59s; 210.17 connections/user sec, bytes read 0
+124 connections in 11 real seconds, 0 bytes read per connection
+Execution 31
+s_time: verify depth is 1
+125 connections in 0.59s; 211.86 connections/user sec, bytes read 0
+125 connections in 11 real seconds, 0 bytes read per connection
+Execution 32
+s_time: verify depth is 1
+84 connections in 0.40s; 210.00 connections/user sec, bytes read 0
+84 connections in 11 real seconds, 0 bytes read per connection
+Execution 33
+s_time: verify depth is 1
+124 connections in 0.63s; 196.83 connections/user sec, bytes read 0
+124 connections in 11 real seconds, 0 bytes read per connection
+Execution 34
+s_time: verify depth is 1
+124 connections in 0.62s; 200.00 connections/user sec, bytes read 0
+124 connections in 11 real seconds, 0 bytes read per connection
+Execution 35
+s_time: verify depth is 1
+84 connections in 0.41s; 204.88 connections/user sec, bytes read 0
+84 connections in 11 real seconds, 0 bytes read per connection
+Execution 36
+s_time: verify depth is 1
+124 connections in 0.62s; 200.00 connections/user sec, bytes read 0
+124 connections in 11 real seconds, 0 bytes read per connection
+Execution 37
+s_time: verify depth is 1
+124 connections in 0.61s; 203.28 connections/user sec, bytes read 0
+124 connections in 11 real seconds, 0 bytes read per connection
+Execution 38
+s_time: verify depth is 1
+83 connections in 0.41s; 202.44 connections/user sec, bytes read 0
+83 connections in 11 real seconds, 0 bytes read per connection
+Execution 39
+s_time: verify depth is 1
+125 connections in 0.61s; 204.92 connections/user sec, bytes read 0
+125 connections in 11 real seconds, 0 bytes read per connection
+Execution 40
+s_time: verify depth is 1
+125 connections in 0.56s; 223.21 connections/user sec, bytes read 0
+125 connections in 11 real seconds, 0 bytes read per connection
+Execution 41
+s_time: verify depth is 1
+98 connections in 0.43s; 227.91 connections/user sec, bytes read 0
+98 connections in 12 real seconds, 0 bytes read per connection
+Execution 42
+s_time: verify depth is 1
+123 connections in 0.52s; 236.54 connections/user sec, bytes read 0
+123 connections in 11 real seconds, 0 bytes read per connection
+Execution 43
+s_time: verify depth is 1
+125 connections in 0.59s; 211.86 connections/user sec, bytes read 0
+125 connections in 11 real seconds, 0 bytes read per connection
+Execution 44
+s_time: verify depth is 1
+118 connections in 0.56s; 210.71 connections/user sec, bytes read 0
+118 connections in 14 real seconds, 0 bytes read per connection
+Execution 45
+s_time: verify depth is 1
+124 connections in 0.61s; 203.28 connections/user sec, bytes read 0
+124 connections in 11 real seconds, 0 bytes read per connection
+Execution 46
+s_time: verify depth is 1
+125 connections in 0.60s; 208.33 connections/user sec, bytes read 0
+125 connections in 11 real seconds, 0 bytes read per connection
+Execution 47
+s_time: verify depth is 1
+116 connections in 0.56s; 207.14 connections/user sec, bytes read 0
+116 connections in 13 real seconds, 0 bytes read per connection
+Execution 48
+s_time: verify depth is 1
+116 connections in 0.51s; 227.45 connections/user sec, bytes read 0
+116 connections in 11 real seconds, 0 bytes read per connection
+Execution 49
+s_time: verify depth is 1
+125 connections in 0.53s; 235.85 connections/user sec, bytes read 0
+125 connections in 11 real seconds, 0 bytes read per connection
+Execution 50
+s_time: verify depth is 1
+126 connections in 0.54s; 233.33 connections/user sec, bytes read 0
+126 connections in 11 real seconds, 0 bytes read per connection
+tc
+Mostrando el estado de qdisc para la interfaz: lo
+qdisc netem 8284: root refcnt 2 limit 1000 delay 20.0ms
+ Sent 0 bytes 0 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+Certificate request self-signature ok
+subject=CN=localhost
+Running /opt/oqssa/bin/perftestServerECDSA.sh with SIG_ALG=secp384r1 and KEM_ALG=mlkem768
+
+Using default temp DH parameters
+ACCEPT
+Execution 1
+s_time: verify depth is 1
+119 connections in 0.41s; 290.24 connections/user sec, bytes read 0
+119 connections in 11 real seconds, 0 bytes read per connection
+Execution 2
+s_time: verify depth is 1
+129 connections in 0.42s; 307.14 connections/user sec, bytes read 0
+129 connections in 11 real seconds, 0 bytes read per connection
+Execution 3
+s_time: verify depth is 1
+105 connections in 0.38s; 276.32 connections/user sec, bytes read 0
+105 connections in 12 real seconds, 0 bytes read per connection
+Execution 4
+s_time: verify depth is 1
+122 connections in 0.45s; 271.11 connections/user sec, bytes read 0
+122 connections in 11 real seconds, 0 bytes read per connection
+Execution 5
+s_time: verify depth is 1
+129 connections in 0.42s; 307.14 connections/user sec, bytes read 0
+129 connections in 11 real seconds, 0 bytes read per connection
+Execution 6
+s_time: verify depth is 1
+126 connections in 0.42s; 300.00 connections/user sec, bytes read 0
+126 connections in 14 real seconds, 0 bytes read per connection
+Execution 7
+s_time: verify depth is 1
+124 connections in 0.41s; 302.44 connections/user sec, bytes read 0
+124 connections in 11 real seconds, 0 bytes read per connection
+Execution 8
+s_time: verify depth is 1
+129 connections in 0.48s; 268.75 connections/user sec, bytes read 0
+129 connections in 11 real seconds, 0 bytes read per connection
+Execution 9
+s_time: verify depth is 1
+124 connections in 0.44s; 281.82 connections/user sec, bytes read 0
+124 connections in 14 real seconds, 0 bytes read per connection
+Execution 10
+s_time: verify depth is 1
+126 connections in 0.43s; 293.02 connections/user sec, bytes read 0
+126 connections in 11 real seconds, 0 bytes read per connection
+Execution 11
+s_time: verify depth is 1
+128 connections in 0.46s; 278.26 connections/user sec, bytes read 0
+128 connections in 11 real seconds, 0 bytes read per connection
+Execution 12
+s_time: verify depth is 1
+123 connections in 0.41s; 300.00 connections/user sec, bytes read 0
+123 connections in 14 real seconds, 0 bytes read per connection
+Execution 13
+s_time: verify depth is 1
+128 connections in 0.47s; 272.34 connections/user sec, bytes read 0
+128 connections in 11 real seconds, 0 bytes read per connection
+Execution 14
+s_time: verify depth is 1
+128 connections in 0.42s; 304.76 connections/user sec, bytes read 0
+128 connections in 11 real seconds, 0 bytes read per connection
+Execution 15
+s_time: verify depth is 1
+120 connections in 0.44s; 272.73 connections/user sec, bytes read 0
+120 connections in 13 real seconds, 0 bytes read per connection
+Execution 16
+s_time: verify depth is 1
+119 connections in 0.40s; 297.50 connections/user sec, bytes read 0
+119 connections in 11 real seconds, 0 bytes read per connection
+Execution 17
+s_time: verify depth is 1
+129 connections in 0.42s; 307.14 connections/user sec, bytes read 0
+129 connections in 11 real seconds, 0 bytes read per connection
+Execution 18
+s_time: verify depth is 1
+128 connections in 0.43s; 297.67 connections/user sec, bytes read 0
+128 connections in 11 real seconds, 0 bytes read per connection
+Execution 19
+s_time: verify depth is 1
+87 connections in 0.28s; 310.71 connections/user sec, bytes read 0
+87 connections in 11 real seconds, 0 bytes read per connection
+Execution 20
+s_time: verify depth is 1
+129 connections in 0.46s; 280.43 connections/user sec, bytes read 0
+129 connections in 11 real seconds, 0 bytes read per connection
+Execution 21
+s_time: verify depth is 1
+128 connections in 0.44s; 290.91 connections/user sec, bytes read 0
+128 connections in 11 real seconds, 0 bytes read per connection
+Execution 22
+s_time: verify depth is 1
+87 connections in 0.32s; 271.88 connections/user sec, bytes read 0
+87 connections in 11 real seconds, 0 bytes read per connection
+Execution 23
+s_time: verify depth is 1
+127 connections in 0.50s; 254.00 connections/user sec, bytes read 0
+127 connections in 11 real seconds, 0 bytes read per connection
+Execution 24
+s_time: verify depth is 1
+127 connections in 0.44s; 288.64 connections/user sec, bytes read 0
+127 connections in 11 real seconds, 0 bytes read per connection
+Execution 25
+s_time: verify depth is 1
+86 connections in 0.35s; 245.71 connections/user sec, bytes read 0
+86 connections in 11 real seconds, 0 bytes read per connection
+Execution 26
+s_time: verify depth is 1
+126 connections in 0.51s; 247.06 connections/user sec, bytes read 0
+126 connections in 11 real seconds, 0 bytes read per connection
+Execution 27
+s_time: verify depth is 1
+127 connections in 0.51s; 249.02 connections/user sec, bytes read 0
+127 connections in 11 real seconds, 0 bytes read per connection
+Execution 28
+s_time: verify depth is 1
+100 connections in 0.39s; 256.41 connections/user sec, bytes read 0
+100 connections in 12 real seconds, 0 bytes read per connection
+Execution 29
+s_time: verify depth is 1
+124 connections in 0.50s; 248.00 connections/user sec, bytes read 0
+124 connections in 11 real seconds, 0 bytes read per connection
+Execution 30
+s_time: verify depth is 1
+127 connections in 0.48s; 264.58 connections/user sec, bytes read 0
+127 connections in 11 real seconds, 0 bytes read per connection
+Execution 31
+s_time: verify depth is 1
+121 connections in 0.47s; 257.45 connections/user sec, bytes read 0
+121 connections in 14 real seconds, 0 bytes read per connection
+Execution 32
+s_time: verify depth is 1
+127 connections in 0.49s; 259.18 connections/user sec, bytes read 0
+127 connections in 11 real seconds, 0 bytes read per connection
+Execution 33
+s_time: verify depth is 1
+127 connections in 0.49s; 259.18 connections/user sec, bytes read 0
+127 connections in 11 real seconds, 0 bytes read per connection
+Execution 34
+s_time: verify depth is 1
+120 connections in 0.40s; 300.00 connections/user sec, bytes read 0
+120 connections in 13 real seconds, 0 bytes read per connection
+Execution 35
+s_time: verify depth is 1
+117 connections in 0.40s; 292.50 connections/user sec, bytes read 0
+117 connections in 11 real seconds, 0 bytes read per connection
+Execution 36
+s_time: verify depth is 1
+128 connections in 0.45s; 284.44 connections/user sec, bytes read 0
+128 connections in 11 real seconds, 0 bytes read per connection
+Execution 37
+s_time: verify depth is 1
+128 connections in 0.45s; 284.44 connections/user sec, bytes read 0
+128 connections in 11 real seconds, 0 bytes read per connection
+Execution 38
+s_time: verify depth is 1
+86 connections in 0.29s; 296.55 connections/user sec, bytes read 0
+86 connections in 11 real seconds, 0 bytes read per connection
+Execution 39
+s_time: verify depth is 1
+128 connections in 0.42s; 304.76 connections/user sec, bytes read 0
+128 connections in 11 real seconds, 0 bytes read per connection
+Execution 40
+s_time: verify depth is 1
+127 connections in 0.48s; 264.58 connections/user sec, bytes read 0
+127 connections in 11 real seconds, 0 bytes read per connection
+Execution 41
+s_time: verify depth is 1
+87 connections in 0.30s; 290.00 connections/user sec, bytes read 0
+87 connections in 11 real seconds, 0 bytes read per connection
+Execution 42
+s_time: verify depth is 1
+127 connections in 0.47s; 270.21 connections/user sec, bytes read 0
+127 connections in 11 real seconds, 0 bytes read per connection
+Execution 43
+s_time: verify depth is 1
+128 connections in 0.46s; 278.26 connections/user sec, bytes read 0
+128 connections in 11 real seconds, 0 bytes read per connection
+Execution 44
+s_time: verify depth is 1
+86 connections in 0.32s; 268.75 connections/user sec, bytes read 0
+86 connections in 11 real seconds, 0 bytes read per connection
+Execution 45
+s_time: verify depth is 1
+127 connections in 0.46s; 276.09 connections/user sec, bytes read 0
+127 connections in 11 real seconds, 0 bytes read per connection
+Execution 46
+s_time: verify depth is 1
+128 connections in 0.45s; 284.44 connections/user sec, bytes read 0
+128 connections in 11 real seconds, 0 bytes read per connection
+Execution 47
+s_time: verify depth is 1
+100 connections in 0.38s; 263.16 connections/user sec, bytes read 0
+100 connections in 12 real seconds, 0 bytes read per connection
+Execution 48
+s_time: verify depth is 1
+125 connections in 0.47s; 265.96 connections/user sec, bytes read 0
+125 connections in 11 real seconds, 0 bytes read per connection
+Execution 49
+s_time: verify depth is 1
+128 connections in 0.45s; 284.44 connections/user sec, bytes read 0
+128 connections in 11 real seconds, 0 bytes read per connection
+Execution 50
+s_time: verify depth is 1
+121 connections in 0.45s; 268.89 connections/user sec, bytes read 0
+121 connections in 14 real seconds, 0 bytes read per connection
