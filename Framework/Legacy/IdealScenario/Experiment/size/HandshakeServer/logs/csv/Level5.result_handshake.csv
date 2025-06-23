@@ -1,0 +1,11 @@
+SIG_ALG;KEM_ALG;Read Bytes;Written Bytes
+secp521r1;P-521;1247;640
+secp521r1;mlkem1024;2680;2067
+mldsa87;P-521;12486;610
+mldsa87;mlkem1024;13921;2037
+falcon1024;P-521;4957;610
+falcon1024;mlkem1024;6398;2037
+sphincssha2256fsimple;P-521;100529;610
+sphincssha2256fsimple;mlkem1024;101964;2037
+sphincssha2256ssimple;P-521;60313;610
+sphincssha2256ssimple;mlkem1024;61748;2037
