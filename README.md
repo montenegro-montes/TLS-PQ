@@ -115,9 +115,9 @@ Cleanly exits the framework.
 ├── DockerTLS-PQ           # Multistage Dockerfile 
 ├── Scenarios/             # Several predeterminates scenarios
 	├──	Scripts				# Docker and Python scripts to launch and process each scenario
-	├──	Logs					# Raw output from Docker executions 
-	├──	Csvs					# Processed logs in CSV format 
-	├──	Plots					# Graphical representation
+	├──	Logs				# Raw output from Docker executions 
+	├──	Csvs				# Processed logs in CSV format 
+	├──	Plots				# Graphical representation
 ├── Legacy/                # Previosly version of the framework
 ├── frameWork.sh           # Main launcher script (menu-based)
 ```
